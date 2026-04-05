@@ -1,0 +1,131 @@
+{
+  "baseline_modes": [
+    "Architecture-first",
+    "Cost-interface-first",
+    "Joint",
+    "Memory-off",
+    "Outer-loop repair",
+    "Package-oblivious",
+    "Partition-first",
+    "Stage-wise"
+  ],
+  "command": [
+    "/usr/bin/python3",
+    "/home/zhaojw/Chip/PICASSO/pyscripts/pipeline/picasso_runner.py",
+    "--config",
+    "/home/zhaojw/Chip/PICASSO/configs/paper_core.json",
+    "--run-name",
+    "20260405_205311_paper_core_bootstrap"
+  ],
+  "config": {
+    "auto_build": false,
+    "baseline_modes": [
+      "Joint",
+      "Stage-wise",
+      "Package-oblivious",
+      "Architecture-first",
+      "Partition-first",
+      "Cost-interface-first",
+      "Outer-loop repair",
+      "Memory-off"
+    ],
+    "description": "Python-native paper-core preset spanning multiple workloads and package/interface combinations.",
+    "engine": "python_native",
+    "experiment_name": "paper_core_bootstrap",
+    "points": [
+      {
+        "batch_size": 1,
+        "chiplet_partition": {
+          "x": 2,
+          "y": 1
+        },
+        "core_array": {
+          "x": 6,
+          "y": 3
+        },
+        "design_name": "core_resnext50_os_xsr",
+        "interface_class": "XSR",
+        "macs_per_core": 2048,
+        "memory_bandwidth_gbps": 72,
+        "memory_class": "GDDR6X",
+        "microarch": "polar",
+        "noc_bandwidth": 16,
+        "nop_bandwidth": 16,
+        "objective": "edp",
+        "package_class": "OS",
+        "process_node": "12",
+        "search_rounds": 4,
+        "seed": 1,
+        "stride": 3,
+        "tops_target_tops": 72,
+        "ul3_kb": 1024,
+        "workload_ref": "workloads/cnn_inference.json"
+      },
+      {
+        "batch_size": 1,
+        "chiplet_partition": {
+          "x": 2,
+          "y": 2
+        },
+        "core_array": {
+          "x": 8,
+          "y": 4
+        },
+        "design_name": "core_prefill_fo_ucie",
+        "interface_class": "UCIe",
+        "macs_per_core": 2048,
+        "memory_bandwidth_gbps": 128,
+        "memory_class": "GDDR6X",
+        "microarch": "polar",
+        "noc_bandwidth": 32,
+        "nop_bandwidth": 16,
+        "objective": "edp",
+        "package_class": "FO",
+        "process_node": "7",
+        "search_rounds": 3,
+        "seed": 7,
+        "stride": 4,
+        "tops_target_tops": 128,
+        "ul3_kb": 2048,
+        "workload_ref": "workloads/long_context_prefill.json"
+      },
+      {
+        "batch_size": 1,
+        "chiplet_partition": {
+          "x": 2,
+          "y": 2
+        },
+        "core_array": {
+          "x": 8,
+          "y": 4
+        },
+        "design_name": "core_decode_si_ucie",
+        "interface_class": "UCIe",
+        "macs_per_core": 2048,
+        "memory_bandwidth_gbps": 256,
+        "memory_class": "GDDR6X",
+        "microarch": "polar",
+        "noc_bandwidth": 32,
+        "nop_bandwidth": 32,
+        "objective": "edp",
+        "package_class": "SI",
+        "process_node": "7",
+        "search_rounds": 3,
+        "seed": 11,
+        "stride": 4,
+        "tops_target_tops": 128,
+        "ul3_kb": 2048,
+        "workload_ref": "workloads/kv_heavy_decode.json"
+      }
+    ],
+    "proposal_budget": 256,
+    "tier": "paper-core",
+    "time_cap_minutes": 15
+  },
+  "config_path": "/home/zhaojw/Chip/PICASSO/configs/paper_core.json",
+  "engine": "python_native",
+  "git_commit": "daa1e9019879552eb27b13661269b2812488e03a",
+  "repo_root": "/home/zhaojw/Chip/PICASSO",
+  "run_name": "20260405_205311_paper_core_bootstrap",
+  "timestamp": "20260405_205311"
+}

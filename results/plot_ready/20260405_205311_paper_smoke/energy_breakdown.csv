@@ -1,0 +1,8 @@
+design_id,workload_motif,component,energy,fraction,status
+paper_smoke_001,cnn_inference,buf,6724.697200,0.000427,bootstrap_observed
+paper_smoke_001,cnn_inference,bus,3265.240000,0.000207,bootstrap_observed
+paper_smoke_001,cnn_inference,dram,1084255.573880,0.068775,bootstrap_observed
+paper_smoke_001,cnn_inference,mac,5070319.272770,0.321615,bootstrap_observed
+paper_smoke_001,cnn_inference,noc,2938140.965450,0.186369,bootstrap_observed
+paper_smoke_001,cnn_inference,nop,6658842.989170,0.422377,bootstrap_observed
+paper_smoke_001,cnn_inference,ubuf,3620.990800,0.000230,bootstrap_observed

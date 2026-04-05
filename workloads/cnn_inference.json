@@ -1,0 +1,11 @@
+{
+  "description": "CNN inference workload binding",
+  "execution_binding": "resnext50",
+  "picasso_workload": "cnn_inference",
+  "motif": "cnn_inference",
+  "notes": [
+    "Uses canonical PICASSO workload identity.",
+    "Execution binding to concrete kernels is resolved inside the Python-native runner."
+  ],
+  "status": "runnable_binding"
+}

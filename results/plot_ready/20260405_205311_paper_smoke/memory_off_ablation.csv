@@ -1,0 +1,2 @@
+workload_motif,observed_design_id,joint_design_id,memory_class,memory_bandwidth_gbps,memory_off_supported,winner_changed_vs_joint,cost_delta_pct,energy_delta_pct,latency_delta_pct,edp_delta_pct,status,notes
+cnn_inference,paper_smoke_001,paper_smoke_001,GDDR6X,72,false,false,0.000000,0.000000,0.000000,0.000000,bootstrap_placeholder,Memory-off rows compare the Memory-off winner against the Joint winner when both baselines are present.

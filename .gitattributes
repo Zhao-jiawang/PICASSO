@@ -1,0 +1,5 @@
+results/** linguist-generated=true
+validation/*.csv linguist-generated=true
+paper/figures/** linguist-generated=true
+Project_Statement/*.pdf linguist-generated=true
+Project_Statement/*.docx linguist-generated=true

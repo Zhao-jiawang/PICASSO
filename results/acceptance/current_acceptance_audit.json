@@ -1,0 +1,507 @@
+{
+  "summary": {
+    "generated_at_utc": "2026-04-05T14:45:23.662932+00:00",
+    "contexts": {
+      "paper_smoke": "results/aggregated/20260405_205311_paper_smoke",
+      "paper_core": "results/aggregated/20260405_205311_paper_core_bootstrap",
+      "paper_full": "results/aggregated/20260405_205311_paper_full_bootstrap",
+      "plot_smoke": "results/plot_ready/20260405_205311_paper_smoke",
+      "plot_core": "results/plot_ready/20260405_205311_paper_core_bootstrap",
+      "plot_full": "results/plot_ready/20260405_205311_paper_full_bootstrap",
+      "backend_smoke": "results/backend_aggregated/20260405_205311_paper_smoke",
+      "backend_core": "results/backend_aggregated/20260405_205311_paper_core_bootstrap",
+      "backend_full": "results/backend_aggregated/20260405_205311_paper_full_bootstrap"
+    },
+    "calibration_freeze_recommended": true,
+    "legality_summary": {
+      "paper_smoke": {
+        "run": "results/aggregated/20260405_205311_paper_smoke",
+        "total": 1,
+        "legal": 1,
+        "illegal": 0,
+        "illegal_reasons": {}
+      },
+      "paper_core": {
+        "run": "results/aggregated/20260405_205311_paper_core_bootstrap",
+        "total": 24,
+        "legal": 24,
+        "illegal": 0,
+        "illegal_reasons": {}
+      },
+      "paper_full": {
+        "run": "results/aggregated/20260405_205311_paper_full_bootstrap",
+        "total": 64,
+        "legal": 64,
+        "illegal": 0,
+        "illegal_reasons": {}
+      }
+    },
+    "open_item_count": 0,
+    "pass_item_count": 77,
+    "placeholder_findings": {}
+  },
+  "checks": [
+    {
+      "category": "repo_structure",
+      "item": "configs",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "repo_structure",
+      "item": "workloads",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "repo_structure",
+      "item": "scripts",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "repo_structure",
+      "item": "results/raw",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "repo_structure",
+      "item": "results/aggregated",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "repo_structure",
+      "item": "results/plot_ready",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "repo_structure",
+      "item": "results/figures",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "repo_structure",
+      "item": "results/backend/floorplan",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "repo_structure",
+      "item": "results/backend/package",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "repo_structure",
+      "item": "results/backend/nop",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "repo_structure",
+      "item": "results/backend/memory",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "repo_structure",
+      "item": "results/backend_aggregated",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "repo_structure",
+      "item": "results/backend_figures",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "repo_structure",
+      "item": "docs",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "repo_structure",
+      "item": "paper/figures",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "documentation",
+      "item": "README.md",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "documentation",
+      "item": "docs/README.md",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "documentation",
+      "item": "docs/REPRODUCE.md",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "documentation",
+      "item": "docs/PAPER_MAPPING.md",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "documentation",
+      "item": "docs/Checklist.md",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "documentation",
+      "item": "docs/CALIBRATION_STATUS_ZH.md",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "entrypoints",
+      "item": "scripts/run_smoke.sh",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "entrypoints",
+      "item": "scripts/run_paper_core.sh",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "entrypoints",
+      "item": "scripts/run_paper_full.sh",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "entrypoints",
+      "item": "scripts/run_paper_full_parallel.sh",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "entrypoints",
+      "item": "scripts/run_backend_smoke.sh",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "entrypoints",
+      "item": "scripts/run_backend_core.sh",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "entrypoints",
+      "item": "scripts/run_backend_full.sh",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "entrypoints",
+      "item": "scripts/run_figure4.sh",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "entrypoints",
+      "item": "scripts/run_figure5.sh",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "entrypoints",
+      "item": "scripts/run_figure6.sh",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "entrypoints",
+      "item": "scripts/run_figure7.sh",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "entrypoints",
+      "item": "scripts/run_figure8.sh",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "runs",
+      "item": "results/aggregated/20260405_205311_paper_smoke",
+      "status": "pass",
+      "detail": "1/1 legal"
+    },
+    {
+      "category": "runs",
+      "item": "results/aggregated/20260405_205311_paper_core_bootstrap",
+      "status": "pass",
+      "detail": "24/24 legal"
+    },
+    {
+      "category": "runs",
+      "item": "results/aggregated/20260405_205311_paper_full_bootstrap",
+      "status": "pass",
+      "detail": "64/64 legal"
+    },
+    {
+      "category": "figures",
+      "item": "results/figures/paper_figure_manifest.json",
+      "status": "pass",
+      "detail": "6 figure entries recorded"
+    },
+    {
+      "category": "figures",
+      "item": "results/figures/fig3_validation.pdf",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "figures",
+      "item": "results/figures/fig3_validation.png",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "figures",
+      "item": "results/figures/fig4_baselines.pdf",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "figures",
+      "item": "results/figures/fig4_baselines.png",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "figures",
+      "item": "results/figures/fig5_interface_memory.pdf",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "figures",
+      "item": "results/figures/fig5_interface_memory.png",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "figures",
+      "item": "results/figures/fig6_phase_map.pdf",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "figures",
+      "item": "results/figures/fig6_phase_map.png",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "figures",
+      "item": "results/figures/fig7_pareto_energy.pdf",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "figures",
+      "item": "results/figures/fig7_pareto_energy.png",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "figures",
+      "item": "results/figures/fig8_closure.pdf",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "figures",
+      "item": "results/figures/fig8_closure.png",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "schema",
+      "item": "results/aggregated/model_parameterization.json",
+      "status": "pass",
+      "detail": "all required parameterization terms exported"
+    },
+    {
+      "category": "validation",
+      "item": "validation/compute_grounding.csv",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "validation",
+      "item": "validation/interface_envelope.csv",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "validation",
+      "item": "validation/package_yield_anchor.csv",
+      "status": "pass",
+      "detail": "exists"
+    },
+    {
+      "category": "validation",
+      "item": "compute_grounding_sanity",
+      "status": "pass",
+      "detail": "[{\"process_node\": \"7\", \"latency_advantage_vs_12nm\": \"2.653061\", \"latency_advantage_basis\": \"process_registry_fallback\", \"matched_anchor_count\": \"0\"}, {\"process_node\": \"12\", \"latency_advantage_vs_12nm\": \"1.000000\", \"latency_advantage_basis\": \"baseline\", \"matched_anchor_count\": \"0\"}]"
+    },
+    {
+      "category": "validation",
+      "item": "package_ordering",
+      "status": "pass",
+      "detail": "{\"FO\": 5.700171, \"OS\": 0.848748, \"SI\": 12.134084}"
+    },
+    {
+      "category": "plot_ready",
+      "item": "results/plot_ready/20260405_205311_paper_full_bootstrap/winner_change_matrix.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full plot-ready bundle"
+    },
+    {
+      "category": "plot_ready",
+      "item": "results/plot_ready/20260405_205311_paper_full_bootstrap/reevaluated_loss.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full plot-ready bundle"
+    },
+    {
+      "category": "plot_ready",
+      "item": "results/plot_ready/20260405_205311_paper_full_bootstrap/interface_vs_package.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full plot-ready bundle"
+    },
+    {
+      "category": "plot_ready",
+      "item": "results/plot_ready/20260405_205311_paper_full_bootstrap/memory_off_ablation.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full plot-ready bundle"
+    },
+    {
+      "category": "plot_ready",
+      "item": "results/plot_ready/20260405_205311_paper_full_bootstrap/phase_boundary.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full plot-ready bundle"
+    },
+    {
+      "category": "plot_ready",
+      "item": "results/plot_ready/20260405_205311_paper_full_bootstrap/split_margin.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full plot-ready bundle"
+    },
+    {
+      "category": "plot_ready",
+      "item": "results/plot_ready/20260405_205311_paper_full_bootstrap/pareto_points.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full plot-ready bundle"
+    },
+    {
+      "category": "plot_ready",
+      "item": "results/plot_ready/20260405_205311_paper_full_bootstrap/energy_breakdown.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full plot-ready bundle"
+    },
+    {
+      "category": "plot_ready",
+      "item": "results/plot_ready/20260405_205311_paper_full_bootstrap/boundary_drift.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full plot-ready bundle"
+    },
+    {
+      "category": "plot_ready",
+      "item": "results/plot_ready/20260405_205311_paper_full_bootstrap/sensitivity_tags.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full plot-ready bundle"
+    },
+    {
+      "category": "plot_ready",
+      "item": "results/plot_ready/20260405_205311_paper_full_bootstrap/illegal_breakdown.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full plot-ready bundle"
+    },
+    {
+      "category": "plot_ready",
+      "item": "results/plot_ready/20260405_205311_paper_full_bootstrap/weight_shift_summary.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full plot-ready bundle"
+    },
+    {
+      "category": "backend_closure",
+      "item": "results/backend_aggregated/20260405_205311_paper_full_bootstrap/winner_agreement.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full backend bundle"
+    },
+    {
+      "category": "backend_closure",
+      "item": "results/backend_aggregated/20260405_205311_paper_full_bootstrap/legality_confusion.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full backend bundle"
+    },
+    {
+      "category": "backend_closure",
+      "item": "results/backend_aggregated/20260405_205311_paper_full_bootstrap/boundary_drift_backend.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full backend bundle"
+    },
+    {
+      "category": "backend_closure",
+      "item": "results/backend_aggregated/20260405_205311_paper_full_bootstrap/claim_closure.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full backend bundle"
+    },
+    {
+      "category": "backend_closure",
+      "item": "results/backend_aggregated/20260405_205311_paper_full_bootstrap/closure_summary.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full backend bundle"
+    },
+    {
+      "category": "backend_closure",
+      "item": "results/backend_aggregated/20260405_205311_paper_full_bootstrap/closure_summary.json",
+      "status": "pass",
+      "detail": "exists in latest paper_full backend bundle"
+    },
+    {
+      "category": "backend_closure",
+      "item": "results/backend_aggregated/20260405_205311_paper_full_bootstrap/router_sensitivity.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full backend bundle"
+    },
+    {
+      "category": "backend_closure",
+      "item": "results/backend_aggregated/20260405_205311_paper_full_bootstrap/package_cost_ordering_check.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full backend bundle"
+    },
+    {
+      "category": "backend_closure",
+      "item": "results/backend_aggregated/20260405_205311_paper_full_bootstrap/deployment_regime_summary.csv",
+      "status": "pass",
+      "detail": "exists in latest paper_full backend bundle"
+    },
+    {
+      "category": "calibration_decision",
+      "item": "freeze_default_calibration_thread",
+      "status": "pass",
+      "detail": "keep focus on artifact/project work unless new regression appears"
+    }
+  ]
+}

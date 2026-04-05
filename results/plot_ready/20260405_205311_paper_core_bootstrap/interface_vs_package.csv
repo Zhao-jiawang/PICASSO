@@ -1,0 +1,4 @@
+workload_motif,interface_class,package_class,design_count,avg_cost,avg_energy,avg_cycle,status
+cnn_inference,XSR,OS,1,107747854892.676407,13945983.649920,7726.000000,bootstrap_observed
+kv_heavy_decode,UCIe,SI,1,2088809896772.473145,57236447.638420,36494.000000,bootstrap_observed
+long_context_prefill,UCIe,FO,1,84146096574066540544.000000,57565895540.357483,1461719134.000000,bootstrap_observed

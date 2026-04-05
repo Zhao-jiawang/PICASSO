@@ -1,0 +1,4 @@
+design_id,baseline_mode,workload_motif,chiplet_count,regime,package_class,interface_class,process_node,tops_target_tops,edp,cost,energy,cycle,status
+paper_core_bootstrap_001,Joint,cnn_inference,2,few,OS,XSR,12,72,107746669679.309937,107747854892.676407,13945983.649920,7726,bootstrap_observed
+paper_core_bootstrap_009,Joint,long_context_prefill,4,few,FO,UCIe,7,128,84145170977185792000.000000,84146096574066540544.000000,57565895540.357483,1461719134,bootstrap_observed
+paper_core_bootstrap_017,Joint,kv_heavy_decode,4,few,SI,UCIe,7,128,2088786920116.351807,2088809896772.473145,57236447.638420,36494,bootstrap_observed

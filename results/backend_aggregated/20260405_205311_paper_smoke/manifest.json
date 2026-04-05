@@ -1,0 +1,32 @@
+{
+  "baseline_modes": [
+    "Joint"
+  ],
+  "generated_files": [
+    "winner_agreement.csv",
+    "legality_confusion.csv",
+    "boundary_drift_backend.csv",
+    "claim_closure.csv",
+    "closure_summary.csv",
+    "closure_summary.json",
+    "router_sensitivity.csv",
+    "package_cost_ordering_check.csv",
+    "deployment_regime_summary.csv"
+  ],
+  "notes": [
+    "Closure metrics are projected from canonical design records and backend translation bundles.",
+    "The reported values validate decision preservation rather than sign-off correctness."
+  ],
+  "sampled_points_file": "/home/zhaojw/Chip/PICASSO/results/backend_aggregated/20260405_205311_paper_smoke/sampled_backend_points.json",
+  "source_run": "/home/zhaojw/Chip/PICASSO/results/aggregated/20260405_205311_paper_smoke",
+  "status": "projected_decision_preservation",
+  "winner_summary_by_baseline": {
+    "Joint": {
+      "count": 1,
+      "top1": "paper_smoke_001",
+      "top3": [
+        "paper_smoke_001"
+      ]
+    }
+  }
+}

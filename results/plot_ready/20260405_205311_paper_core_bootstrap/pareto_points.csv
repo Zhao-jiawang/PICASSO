@@ -1,0 +1,4 @@
+design_id,baseline_mode,workload_motif,package_class,interface_class,cost,energy,cycle,is_pareto_front,status
+paper_core_bootstrap_001,Joint,cnn_inference,OS,XSR,107747854892.676407,13945983.649920,7726,true,bootstrap_observed
+paper_core_bootstrap_009,Joint,long_context_prefill,FO,UCIe,84146096574066540544.000000,57565895540.357483,1461719134,false,bootstrap_observed
+paper_core_bootstrap_017,Joint,kv_heavy_decode,SI,UCIe,2088809896772.473145,57236447.638420,36494,false,bootstrap_observed

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "picasso-runtime"
+version = "0.1.0"
+description = "PICASSO Python-native runtime and experiment pipeline"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Zhao-jiawang", email = "3040601922@qq.com"}
+]
+
+[tool.setuptools]
+packages = ["picasso", "picasso.core"]

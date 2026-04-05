@@ -1,0 +1,6 @@
+cohort,top1_agreement,top3_overlap,backend_regret,status,count
+boundary,0.500000,0.750000,0.064440,projected_decision_preservation,4
+control,0.000000,0.000000,44164269.080114,projected_decision_preservation,7
+disagreement,1.000000,1.000000,0.000000,projected_decision_preservation,1
+near_legality,0.000000,0.666667,0.038927,projected_decision_preservation,4
+winner,0.000000,0.250000,0.055711,projected_decision_preservation,8

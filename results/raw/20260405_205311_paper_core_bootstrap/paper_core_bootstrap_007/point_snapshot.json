@@ -1,0 +1,200 @@
+{
+  "command": [
+    "python_native_engine"
+  ],
+  "design_id": "paper_core_bootstrap_007",
+  "engine": "python_native",
+  "execution_controls": {
+    "proposal_budget": 256,
+    "time_cap_minutes": 15.0
+  },
+  "normalized_point": {
+    "IO_type": "XSR",
+    "baseline_mode": "Outer-loop repair",
+    "bb": 1,
+    "ddr_bw": 73728,
+    "ddr_type": "GDDR6X",
+    "design_name": "core_resnext50_os_xsr",
+    "ff": 1,
+    "mac": 2048,
+    "microarch_name": "polar",
+    "mm": 0,
+    "nn": 13,
+    "noc": 16,
+    "nop_bw": 16,
+    "objective_name": "edp",
+    "package_type": "OS",
+    "proposal_budget": 256,
+    "rr": 4,
+    "seed": 1,
+    "ss": 3,
+    "tech": "12",
+    "time_cap_minutes": 15.0,
+    "tops": 73728,
+    "tops_target_tops": 72,
+    "ul3": 1024,
+    "workload_exec_name": "resnext50",
+    "workload_motif": "cnn_inference",
+    "workload_name": "cnn_inference",
+    "workload_ref": "workloads/cnn_inference.json",
+    "workload_status": "runnable_binding",
+    "workload_trace_ref": null,
+    "workload_trace_scalars": {},
+    "workload_trace_summary": {},
+    "xcut": 2,
+    "xx": 6,
+    "ycut": 1,
+    "yy": 3
+  },
+  "paths": {
+    "result_log": "results/raw/20260405_205311_paper_core_bootstrap/paper_core_bootstrap_007/result.log",
+    "search_trace": "results/raw/20260405_205311_paper_core_bootstrap/paper_core_bootstrap_007/search_trace.jsonl",
+    "stderr_log": "results/raw/20260405_205311_paper_core_bootstrap/paper_core_bootstrap_007/stderr.log",
+    "stdout_log": "results/raw/20260405_205311_paper_core_bootstrap/paper_core_bootstrap_007/stdout.log"
+  },
+  "returncode": 0,
+  "search_summary": {
+    "accepted_moves": 234,
+    "baseline_mode": "Outer-loop repair",
+    "best_eval": {
+      "cost_overall": 305472.3044598644,
+      "cycle": 7224,
+      "derived_terms": {
+        "amortized_nre_cost": 305468.661948934,
+        "assembly_waste_cost": 0.05929145163101578,
+        "avg_mapped_utilization": 0.9409639040129057,
+        "avg_partition_utilization": 0.9409639040129057,
+        "boundary_count": 1.0,
+        "buffer_area": 1.6582360267639162,
+        "buffer_average_bytes": 71150.0,
+        "buffer_capacity_bytes": 225732.0,
+        "buffer_margin": 154582.0,
+        "buffer_overflow_core_count": 0.0,
+        "buffer_overflow_ratio": 0.0,
+        "buffer_peak_bytes": 71150.0,
+        "channel_count_available": 3.0,
+        "channel_count_required": 1.0,
+        "chip_nre": 71481409.98529494,
+        "collective_pressure": 0.06,
+        "compute_array_area": 6.6095999999999995,
+        "compute_cycles": 6383.0,
+        "control_area": 3.471374326339513,
+        "defect_die_cost": 0.00839770622800573,
+        "distinct_chip_type_count": 2.0,
+        "dram_channel_imbalance": 0.001773502970413121,
+        "dram_channel_margin": 29.127963335972428,
+        "dram_service_cycles": 203.0,
+        "edge_margin": 138.60016313566507,
+        "endpoint_latency_cycles": 35.0,
+        "graph_layer_count": 5.0,
+        "interposer_area": 0.0,
+        "io_competition_score": 0.005555953068840492,
+        "layout_locality_score": 0.05555555555555555,
+        "locality_score": 0.6204131863752843,
+        "memory_margin": 47.71178215054655,
+        "module_nre": 19555737.50024354,
+        "multicast_degree": 1.1400000000000001,
+        "noc_margin": 14.23083240889254,
+        "noc_service_cycles": 374.0,
+        "nop_service_cycles": 1388.0,
+        "overflow_core_count": 0.0,
+        "package_area": 67.4335775870467,
+        "package_defect_cost": 0.015481140513745325,
+        "package_nre": 603451.0991417102,
+        "peak_dram_channel_gbps": 2.872036664027571,
+        "peak_noc_link_gbps": 3.043245981200324,
+        "peak_nop_link_gbps": 2.1497165009469708,
+        "peak_route_link_gbps": 3.043245981200324,
+        "peak_ubuf_bytes": 71150.0,
+        "per_compute_die_area": 6.045693331848266,
+        "phy_count": 24.0,
+        "raw_die_cost": 1.928588800156389,
+        "raw_package_cost": 0.5057518319028502,
+        "remote_weight_share": 0.5,
+        "route_margin": 130.75072448566982,
+        "schedule_tree_height": 2.0,
+        "segment_count": 2.0,
+        "segment_crossing_count": 1.0,
+        "segment_stage_count_avg": 2.5,
+        "segment_sync_cycles": 28.0,
+        "serialization_ratio": 0.511293472963561,
+        "shortcut_input_count": 1.0,
+        "spm_overflow_ratio": 0.0,
+        "spm_residency": 0.98,
+        "total_interchip_bw": 5.085005574119786
+      },
+      "edp": 102902044778.65506,
+      "energy": 14244469.100035308,
+      "illegal_reasons": [],
+      "legal": true,
+      "legality_flags": {
+        "buffer": "legal",
+        "edge": "legal",
+        "memory": "legal",
+        "memory_channel": "legal",
+        "noc": "legal",
+        "overall": "legal",
+        "route": "legal"
+      },
+      "objective_score": 104137486728.2676
+    },
+    "best_round": 170,
+    "best_state": {
+      "batch_cluster": false,
+      "interleave": true,
+      "mapping_tiling": 2,
+      "memory_balance": 0.7821199791437269,
+      "memory_prefetch": 3,
+      "noc_balance": 1.079629899380804,
+      "pipeline_depth": 2,
+      "placement_skew": 0.1712477544650449,
+      "route_slack": 0.938803755593199,
+      "segment_span": 3,
+      "spm_level": 3
+    },
+    "engine": "python_native",
+    "legal_moves": 256,
+    "proposal_budget": 256,
+    "runtime_seconds": 7.71019419003278
+  },
+  "state_tuple": {
+    "a": {
+      "core_array": {
+        "x": 6,
+        "y": 3
+      },
+      "macs_per_core": 2048,
+      "microarch": "polar",
+      "ul3_kb": 1024
+    },
+    "b": {
+      "memory_bandwidth_gbps": 72,
+      "memory_class": "GDDR6X",
+      "noc_bandwidth": 16
+    },
+    "i": {
+      "interface_class": "XSR",
+      "nop_bandwidth": 16
+    },
+    "k": {
+      "chiplet_count": 2,
+      "chiplet_partition": {
+        "x": 2,
+        "y": 1
+      }
+    },
+    "m": {
+      "batch_size": 1,
+      "search_rounds": 4,
+      "workload": "cnn_inference",
+      "workload_motif": "cnn_inference",
+      "workload_ref": "workloads/cnn_inference.json",
+      "workload_trace_ref": null,
+      "workload_trace_summary": {}
+    },
+    "p": {
+      "package_class": "OS"
+    }
+  },
+  "tier": "paper-core"
+}

@@ -1,0 +1,141 @@
+{
+  "cohorts": {
+    "boundary": [
+      "paper_full_bootstrap_001",
+      "paper_full_bootstrap_002",
+      "paper_full_bootstrap_004",
+      "paper_full_bootstrap_005",
+      "paper_full_bootstrap_006",
+      "paper_full_bootstrap_007"
+    ],
+    "control": [
+      "paper_full_bootstrap_018",
+      "paper_full_bootstrap_017",
+      "paper_full_bootstrap_023",
+      "paper_full_bootstrap_021",
+      "paper_full_bootstrap_022",
+      "paper_full_bootstrap_019",
+      "paper_full_bootstrap_020",
+      "paper_full_bootstrap_041",
+      "paper_full_bootstrap_042",
+      "paper_full_bootstrap_044",
+      "paper_full_bootstrap_047",
+      "paper_full_bootstrap_046",
+      "paper_full_bootstrap_043",
+      "paper_full_bootstrap_045",
+      "paper_full_bootstrap_050",
+      "paper_full_bootstrap_051",
+      "paper_full_bootstrap_053",
+      "paper_full_bootstrap_056",
+      "paper_full_bootstrap_061",
+      "paper_full_bootstrap_059"
+    ],
+    "disagreement": [
+      "paper_full_bootstrap_024",
+      "paper_full_bootstrap_048",
+      "paper_full_bootstrap_049",
+      "paper_full_bootstrap_052",
+      "paper_full_bootstrap_055",
+      "paper_full_bootstrap_054"
+    ],
+    "near_legality": [
+      "paper_full_bootstrap_003",
+      "paper_full_bootstrap_008",
+      "paper_full_bootstrap_063",
+      "paper_full_bootstrap_060",
+      "paper_full_bootstrap_057",
+      "paper_full_bootstrap_058"
+    ],
+    "winner": [
+      "paper_full_bootstrap_028",
+      "paper_full_bootstrap_030",
+      "paper_full_bootstrap_025",
+      "paper_full_bootstrap_032",
+      "paper_full_bootstrap_031",
+      "paper_full_bootstrap_027",
+      "paper_full_bootstrap_029",
+      "paper_full_bootstrap_026"
+    ]
+  },
+  "notes": [
+    "This sampler is deterministic but metric-driven over canonical design records.",
+    "Winner uses top-1 per baseline, boundary uses smallest |M1|/|M2|, near_legality uses legality-pressure ordering, and control draws from remaining legal points."
+  ],
+  "record_count": 64,
+  "source_run": "/home/zhaojw/Chip/PICASSO/results/aggregated/20260405_205311_paper_full_bootstrap",
+  "status": "bootstrap_observed_sampler",
+  "winner_summary_by_baseline": {
+    "Architecture-first": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_028",
+      "top3": [
+        "paper_full_bootstrap_028",
+        "paper_full_bootstrap_004",
+        "paper_full_bootstrap_020"
+      ]
+    },
+    "Cost-interface-first": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_030",
+      "top3": [
+        "paper_full_bootstrap_030",
+        "paper_full_bootstrap_006",
+        "paper_full_bootstrap_022"
+      ]
+    },
+    "Joint": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_025",
+      "top3": [
+        "paper_full_bootstrap_025",
+        "paper_full_bootstrap_001",
+        "paper_full_bootstrap_017"
+      ]
+    },
+    "Memory-off": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_032",
+      "top3": [
+        "paper_full_bootstrap_032",
+        "paper_full_bootstrap_008",
+        "paper_full_bootstrap_024"
+      ]
+    },
+    "Outer-loop repair": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_031",
+      "top3": [
+        "paper_full_bootstrap_031",
+        "paper_full_bootstrap_007",
+        "paper_full_bootstrap_023"
+      ]
+    },
+    "Package-oblivious": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_027",
+      "top3": [
+        "paper_full_bootstrap_027",
+        "paper_full_bootstrap_003",
+        "paper_full_bootstrap_019"
+      ]
+    },
+    "Partition-first": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_029",
+      "top3": [
+        "paper_full_bootstrap_029",
+        "paper_full_bootstrap_005",
+        "paper_full_bootstrap_021"
+      ]
+    },
+    "Stage-wise": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_026",
+      "top3": [
+        "paper_full_bootstrap_026",
+        "paper_full_bootstrap_002",
+        "paper_full_bootstrap_018"
+      ]
+    }
+  }
+}

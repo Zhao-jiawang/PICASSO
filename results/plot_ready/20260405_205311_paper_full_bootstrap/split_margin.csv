@@ -1,0 +1,9 @@
+baseline_mode,workload_motif,design_id,winner_design_id,edp_margin_pct,cost_margin_pct,chiplet_count,status
+Joint,cnn_inference,paper_full_bootstrap_001,paper_full_bootstrap_025,390.528513,390.528513,1,bootstrap_observed
+Joint,cnn_inference,paper_full_bootstrap_025,paper_full_bootstrap_025,0.000000,0.000000,4,bootstrap_observed
+Joint,dense_decoder_block,paper_full_bootstrap_041,paper_full_bootstrap_041,0.000000,0.000000,4,bootstrap_observed
+Joint,kv_heavy_decode,paper_full_bootstrap_017,paper_full_bootstrap_017,0.000000,0.000000,4,bootstrap_observed
+Joint,long_context_prefill,paper_full_bootstrap_009,paper_full_bootstrap_009,0.000000,0.000000,4,bootstrap_observed
+Joint,long_context_prefill,paper_full_bootstrap_033,paper_full_bootstrap_009,68632.162666,68632.162666,4,bootstrap_observed
+Joint,megatron_collective_trace,paper_full_bootstrap_057,paper_full_bootstrap_057,0.000000,0.000000,8,bootstrap_observed
+Joint,mixtral_moe_trace,paper_full_bootstrap_049,paper_full_bootstrap_049,0.000000,0.000000,8,bootstrap_observed

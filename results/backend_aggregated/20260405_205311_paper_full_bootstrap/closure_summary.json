@@ -1,0 +1,17 @@
+{
+  "cohort_size_boundary": 6,
+  "cohort_size_control": 20,
+  "cohort_size_disagreement": 6,
+  "cohort_size_near_legality": 6,
+  "cohort_size_total": 46,
+  "cohort_size_winner": 8,
+  "few_many_boundary_drift": 0.0,
+  "hard_slice_agreement": 0.416667,
+  "legal_precision": 1.0,
+  "legal_recall": 1.0,
+  "mono_few_boundary_drift": 0.0,
+  "notes": "Backend closure is reported as projected decision preservation over canonical design-record projections. It is not a sign-off correctness claim.",
+  "source_run": "/home/zhaojw/Chip/PICASSO/results/aggregated/20260405_205311_paper_full_bootstrap",
+  "status": "projected_decision_preservation",
+  "top1_agreement": 0.35
+}

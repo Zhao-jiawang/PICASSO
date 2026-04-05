@@ -1,0 +1,42 @@
+{
+  "auto_build": false,
+  "baseline_modes": [
+    "Joint"
+  ],
+  "description": "Python-native smoke preset over one PICASSO design point.",
+  "engine": "python_native",
+  "experiment_name": "paper_smoke",
+  "proposal_budget": 64,
+  "points": [
+    {
+      "batch_size": 1,
+      "chiplet_partition": {
+        "x": 2,
+        "y": 1
+      },
+      "core_array": {
+        "x": 6,
+        "y": 3
+      },
+      "design_name": "smoke_resnext50_os_xsr",
+      "interface_class": "XSR",
+      "macs_per_core": 2048,
+      "memory_bandwidth_gbps": 72,
+      "memory_class": "GDDR6X",
+      "microarch": "polar",
+      "noc_bandwidth": 16,
+      "nop_bandwidth": 16,
+      "objective": "edp",
+      "package_class": "OS",
+      "process_node": "12",
+      "search_rounds": 4,
+      "seed": 1,
+      "stride": 3,
+      "tops_target_tops": 72,
+      "ul3_kb": 1024,
+      "workload_ref": "workloads/cnn_inference.json"
+    }
+  ],
+  "time_cap_minutes": 5,
+  "tier": "smoke"
+}

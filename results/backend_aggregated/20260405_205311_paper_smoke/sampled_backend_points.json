@@ -1,0 +1,27 @@
+{
+  "cohorts": {
+    "boundary": [],
+    "control": [],
+    "disagreement": [],
+    "near_legality": [],
+    "winner": [
+      "paper_smoke_001"
+    ]
+  },
+  "notes": [
+    "This sampler is deterministic but metric-driven over canonical design records.",
+    "Winner uses top-1 per baseline, boundary uses smallest |M1|/|M2|, near_legality uses legality-pressure ordering, and control draws from remaining legal points."
+  ],
+  "record_count": 1,
+  "source_run": "/home/zhaojw/Chip/PICASSO/results/aggregated/20260405_205311_paper_smoke",
+  "status": "bootstrap_observed_sampler",
+  "winner_summary_by_baseline": {
+    "Joint": {
+      "count": 1,
+      "top1": "paper_smoke_001",
+      "top3": [
+        "paper_smoke_001"
+      ]
+    }
+  }
+}

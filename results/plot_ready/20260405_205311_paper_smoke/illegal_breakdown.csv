@@ -1,0 +1,5 @@
+category,legal_count,illegal_count,unknown_count,status
+overall,1,0,0,bootstrap_observed
+edge,1,0,0,bootstrap_observed
+route,1,0,0,bootstrap_observed
+memory,1,0,0,bootstrap_observed

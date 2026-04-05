@@ -1,0 +1,62 @@
+{
+  "interface_lane_rate_gbps": {
+    "UCIe": 64,
+    "USR": 56,
+    "XSR": 112
+  },
+  "interface_efficiency": {
+    "UCIe": 1.0,
+    "USR": 0.92,
+    "XSR": 0.82
+  },
+  "io_die_limit_mm2": 858.0,
+  "memory_channel_bandwidth_gbps": {
+    "GDDR6X": 32,
+    "HBM": 64,
+    "LPDDR5": 16
+  },
+  "mono_die_limit_mm2": 858.0,
+  "motif_models": {
+    "cnn_inference": {
+      "edge_factor": 0.3,
+      "locality": 0.85,
+      "memory_factor": 0.8,
+      "route_factor": 0.45
+    },
+    "dense_decoder_block": {
+      "edge_factor": 0.5,
+      "locality": 0.7,
+      "memory_factor": 1.1,
+      "route_factor": 0.6
+    },
+    "kv_heavy_decode": {
+      "edge_factor": 0.55,
+      "locality": 0.75,
+      "memory_factor": 1.5,
+      "route_factor": 0.65
+    },
+    "long_context_prefill": {
+      "edge_factor": 0.7,
+      "locality": 0.6,
+      "memory_factor": 1.0,
+      "route_factor": 0.8
+    },
+    "megatron_collective_trace": {
+      "edge_factor": 1.0,
+      "locality": 0.5,
+      "memory_factor": 1.4,
+      "route_factor": 1.1
+    },
+    "mixtral_moe_trace": {
+      "edge_factor": 0.95,
+      "locality": 0.34,
+      "memory_factor": 1.6,
+      "route_factor": 1.05
+    }
+  },
+  "package_route_scale": {
+    "FO": 1.35,
+    "OS": 1.0,
+    "SI": 1.65
+  }
+}

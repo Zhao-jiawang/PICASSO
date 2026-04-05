@@ -1,0 +1,2 @@
+workload_motif,interface_class,package_class,design_count,avg_cost,avg_energy,avg_cycle,status
+cnn_inference,XSR,OS,1,114424860554.640549,15765169.729270,7258.000000,bootstrap_observed

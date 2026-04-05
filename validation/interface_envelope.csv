@@ -1,0 +1,8 @@
+interface_class,context_type,context_value,effective_density_area_per_gbps,penalty_metric_kind,penalty_metric_value,trend_tag,status
+UCIe,package,FO,1584.786054,nop_hop_cost,4.800000,better,bootstrap_registry
+UCIe,package,OS,6896.551724,nop_hop_cost,8.000000,baseline,bootstrap_registry
+UCIe,package,SI,1055.966209,nop_hop_cost,2.400000,better,bootstrap_registry
+USR,tech,7,19307.142857,nop_hop_cost,13.600000,better,bootstrap_registry
+USR,tech,12,22942.345143,nop_hop_cost,19.200000,baseline,bootstrap_registry
+XSR,tech,7,9653.571429,serdes_power_mw_per_lane,69.600000,better,bootstrap_registry
+XSR,tech,12,11471.172571,serdes_power_mw_per_lane,97.440000,baseline,bootstrap_registry

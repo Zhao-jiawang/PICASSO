@@ -1,0 +1,16 @@
+{
+  "description": "Megatron-style collective trace binding",
+  "execution_binding": "transformer",
+  "generated_by": "pyscripts/generate_workload_traces.py",
+  "picasso_workload": "megatron_collective_trace",
+  "motif": "megatron_collective_trace",
+  "required_properties": {
+    "bucket_size_mb": 128,
+    "phases": [
+      "all_reduce",
+      "all_gather"
+    ]
+  },
+  "status": "runnable_trace_binding",
+  "trace_ref": "workloads/generated/megatron_collective_trace.json"
+}

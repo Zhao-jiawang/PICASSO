@@ -1,0 +1,66 @@
+{
+  "notes": [
+    "This is the deterministic Megatron-style collective trace artifact used by the PICASSO workload layer.",
+    "Its metadata is consumed by the Python-native workload resolver and evaluator."
+  ],
+  "phases": [
+    {
+      "bucket_size_mb": 128,
+      "collective": "all_reduce",
+      "memory_attachment_pressure": "medium",
+      "participant_group": "training_collective_heavy_pod",
+      "phase_id": 0,
+      "route_pressure_tag": "medium"
+    },
+    {
+      "bucket_size_mb": 128,
+      "collective": "all_gather",
+      "memory_attachment_pressure": "medium",
+      "participant_group": "training_collective_heavy_pod",
+      "phase_id": 1,
+      "route_pressure_tag": "high"
+    },
+    {
+      "bucket_size_mb": 128,
+      "collective": "all_reduce",
+      "memory_attachment_pressure": "high",
+      "participant_group": "training_collective_heavy_pod",
+      "phase_id": 2,
+      "route_pressure_tag": "high"
+    },
+    {
+      "bucket_size_mb": 128,
+      "collective": "all_gather",
+      "memory_attachment_pressure": "medium",
+      "participant_group": "training_collective_heavy_pod",
+      "phase_id": 3,
+      "route_pressure_tag": "medium"
+    },
+    {
+      "bucket_size_mb": 128,
+      "collective": "all_reduce",
+      "memory_attachment_pressure": "medium",
+      "participant_group": "training_collective_heavy_pod",
+      "phase_id": 4,
+      "route_pressure_tag": "high"
+    },
+    {
+      "bucket_size_mb": 128,
+      "collective": "all_gather",
+      "memory_attachment_pressure": "high",
+      "participant_group": "training_collective_heavy_pod",
+      "phase_id": 5,
+      "route_pressure_tag": "medium"
+    }
+  ],
+  "required_properties": {
+    "bucket_size_mb": 128,
+    "phases": [
+      "all_reduce",
+      "all_gather"
+    ]
+  },
+  "status": "generated_trace",
+  "trace_id": "megatron_collective_trace",
+  "trace_type": "megatron_collective_trace"
+}

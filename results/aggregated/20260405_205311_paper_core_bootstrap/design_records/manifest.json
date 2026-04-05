@@ -1,0 +1,32 @@
+{
+  "design_ids": [
+    "paper_core_bootstrap_001",
+    "paper_core_bootstrap_002",
+    "paper_core_bootstrap_003",
+    "paper_core_bootstrap_004",
+    "paper_core_bootstrap_005",
+    "paper_core_bootstrap_006",
+    "paper_core_bootstrap_007",
+    "paper_core_bootstrap_008",
+    "paper_core_bootstrap_009",
+    "paper_core_bootstrap_010",
+    "paper_core_bootstrap_011",
+    "paper_core_bootstrap_012",
+    "paper_core_bootstrap_013",
+    "paper_core_bootstrap_014",
+    "paper_core_bootstrap_015",
+    "paper_core_bootstrap_016",
+    "paper_core_bootstrap_017",
+    "paper_core_bootstrap_018",
+    "paper_core_bootstrap_019",
+    "paper_core_bootstrap_020",
+    "paper_core_bootstrap_021",
+    "paper_core_bootstrap_022",
+    "paper_core_bootstrap_023",
+    "paper_core_bootstrap_024"
+  ],
+  "record_count": 24,
+  "record_dir": "results/aggregated/20260405_205311_paper_core_bootstrap/design_records",
+  "schema_version": "python_native_v1",
+  "source_csv": "results/aggregated/20260405_205311_paper_core_bootstrap/result.csv"
+}

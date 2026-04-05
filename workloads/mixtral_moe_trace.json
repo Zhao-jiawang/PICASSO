@@ -1,0 +1,15 @@
+{
+  "description": "Mixtral-style MoE trace binding",
+  "execution_binding": "gpt2_decode_block",
+  "generated_by": "pyscripts/generate_workload_traces.py",
+  "picasso_workload": "mixtral_moe_trace",
+  "motif": "mixtral_moe_trace",
+  "required_properties": {
+    "expert_count": 8,
+    "load_imbalance_factor": 1.35,
+    "locality_probability": 0.34,
+    "routing_pattern": "top_2_dispatch"
+  },
+  "status": "runnable_trace_binding",
+  "trace_ref": "workloads/generated/mixtral_moe_trace.json"
+}

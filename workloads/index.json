@@ -1,0 +1,10 @@
+{
+  "workloads": [
+    "workloads/cnn_inference.json",
+    "workloads/long_context_prefill.json",
+    "workloads/kv_heavy_decode.json",
+    "workloads/dense_decoder_block.json",
+    "workloads/mixtral_moe_trace.json",
+    "workloads/megatron_collective_trace.json"
+  ]
+}

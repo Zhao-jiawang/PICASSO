@@ -1,0 +1,20 @@
+{
+  "FO": {
+    "description": "Redistribution-layer fan-out package",
+    "package_code_name": "FO",
+    "route_capacity_template": 1.35,
+    "status": "bootstrap_registry"
+  },
+  "OS": {
+    "description": "Organic substrate package",
+    "package_code_name": "OS",
+    "route_capacity_template": 1.0,
+    "status": "bootstrap_registry"
+  },
+  "SI": {
+    "description": "Silicon interposer package",
+    "package_code_name": "SI",
+    "route_capacity_template": 1.65,
+    "status": "bootstrap_registry"
+  }
+}

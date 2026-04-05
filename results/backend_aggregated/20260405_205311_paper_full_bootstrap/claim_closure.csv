@@ -1,0 +1,4 @@
+claim_id,closure_status,notes
+backend_decision_preservation,conditional,"Projected backend agreement is computed from canonical design-record projections, not backend sign-off correctness."
+legality_classification_preservation,robust,Precision and recall are measured against canonical legality labels under projected backend perturbations.
+package_ordering_stability,robust,Ordering is validated over the current sweep as a decision-preservation check.

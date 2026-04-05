@@ -1,0 +1,54 @@
+{
+  "aggregated_csv": "results/aggregated/20260405_205311_paper_smoke/result.csv",
+  "backend_dir": "/home/zhaojw/Chip/PICASSO/results/backend_aggregated/20260405_205311_paper_smoke",
+  "baseline_modes": [
+    "Joint"
+  ],
+  "best_arch": {
+    "cost": 114424860554.64055,
+    "cost_overall": 308834.59752,
+    "design_id": "paper_smoke_001",
+    "point_name": "smoke_resnext50_os_xsr"
+  },
+  "best_arch_by_baseline": {
+    "Joint": {
+      "cost": 114424860554.64055,
+      "cost_overall": 308834.59752,
+      "design_id": "paper_smoke_001",
+      "point_name": "smoke_resnext50_os_xsr",
+      "proposal_budget": 64,
+      "time_cap_minutes": 5.0
+    }
+  },
+  "config_path": "configs/paper_smoke.json",
+  "design_ids": [
+    "paper_smoke_001"
+  ],
+  "engine": "python_native",
+  "generated_files": [
+    "winner_change_matrix.csv",
+    "reevaluated_loss.csv",
+    "interface_vs_package.csv",
+    "memory_off_ablation.csv",
+    "phase_boundary.csv",
+    "split_margin.csv",
+    "pareto_points.csv",
+    "energy_breakdown.csv",
+    "boundary_drift.csv",
+    "sensitivity_tags.csv",
+    "illegal_breakdown.csv",
+    "weight_shift_summary.csv",
+    "paper_figure_manifest.json"
+  ],
+  "plot_ready_status": "bootstrap",
+  "point_count": 1,
+  "proposal_budgets": [
+    64
+  ],
+  "raw_dir": "results/raw/20260405_205311_paper_smoke",
+  "run_name": "20260405_205311_paper_smoke",
+  "tier": "smoke",
+  "time_cap_minutes": [
+    5.0
+  ]
+}

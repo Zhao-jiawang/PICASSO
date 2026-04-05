@@ -1,0 +1,2 @@
+status,top1_agreement,hard_slice_agreement,legal_precision,legal_recall,mono_few_boundary_drift,few_many_boundary_drift,cohort_size_total,cohort_size_winner,cohort_size_boundary,cohort_size_near_legality,cohort_size_disagreement,cohort_size_control,source_run,notes
+projected_decision_preservation,1.0,0.0,1.0,1.0,0.0,0.0,1,1,0,0,0,0,/home/zhaojw/Chip/PICASSO/results/aggregated/20260405_205311_paper_smoke,Backend closure is reported as projected decision preservation over canonical design-record projections. It is not a sign-off correctness claim.

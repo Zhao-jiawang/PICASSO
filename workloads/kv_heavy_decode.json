@@ -1,0 +1,11 @@
+{
+  "description": "KV-heavy decode workload binding",
+  "execution_binding": "gpt2_decode_block",
+  "picasso_workload": "kv_heavy_decode",
+  "motif": "kv_heavy_decode",
+  "notes": [
+    "Uses canonical PICASSO workload identity.",
+    "Execution binding to concrete kernels is resolved inside the Python-native runner."
+  ],
+  "status": "runnable_binding"
+}

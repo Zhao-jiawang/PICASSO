@@ -1,0 +1,4 @@
+workload_motif,observed_design_id,joint_design_id,memory_class,memory_bandwidth_gbps,memory_off_supported,winner_changed_vs_joint,cost_delta_pct,energy_delta_pct,latency_delta_pct,edp_delta_pct,status,notes
+cnn_inference,paper_core_bootstrap_008,paper_core_bootstrap_001,GDDR6X,72,true,false,12.705134,3.313817,7.584779,11.149941,bootstrap_observed,Memory-off rows compare the Memory-off winner against the Joint winner when both baselines are present.
+kv_heavy_decode,paper_core_bootstrap_024,paper_core_bootstrap_017,GDDR6X,256,true,false,0.331217,-5.355715,4.545953,-1.053231,bootstrap_observed,Memory-off rows compare the Memory-off winner against the Joint winner when both baselines are present.
+long_context_prefill,paper_core_bootstrap_016,paper_core_bootstrap_009,GDDR6X,128,true,false,3.788371,-9.215431,12.746274,2.356218,bootstrap_observed,Memory-off rows compare the Memory-off winner against the Joint winner when both baselines are present.

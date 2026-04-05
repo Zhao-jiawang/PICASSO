@@ -1,0 +1,4 @@
+capacity_case,sensitivity_tag,winner_agreement,precision,recall,boundary_drift,status
+nominal,router_capacity,1.000000,1.000000,1.000000,0.000000,projected_decision_preservation
+minus_15_percent,router_capacity,1.000000,1.000000,1.000000,0.000000,projected_decision_preservation
+plus_15_percent,router_capacity,1.000000,1.000000,1.000000,0.000000,projected_decision_preservation

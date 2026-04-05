@@ -1,0 +1,2 @@
+baseline_mode,workload_motif,design_id,winner_design_id,edp_margin_pct,cost_margin_pct,chiplet_count,status
+Joint,cnn_inference,paper_smoke_001,paper_smoke_001,0.000000,0.000000,2,bootstrap_observed

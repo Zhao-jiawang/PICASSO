@@ -1,0 +1,123 @@
+{
+  "aggregated_csv": "results/aggregated/20260405_205311_paper_core_bootstrap/result.csv",
+  "baseline_modes": [
+    "Architecture-first",
+    "Cost-interface-first",
+    "Joint",
+    "Memory-off",
+    "Outer-loop repair",
+    "Package-oblivious",
+    "Partition-first",
+    "Stage-wise"
+  ],
+  "best_arch": {
+    "cost": 100947237495.67772,
+    "cost_overall": 310402.57204,
+    "design_id": "paper_core_bootstrap_002",
+    "point_name": "core_resnext50_os_xsr"
+  },
+  "best_arch_by_baseline": {
+    "Architecture-first": {
+      "cost": 110474876370.87929,
+      "cost_overall": 298898.57384,
+      "design_id": "paper_core_bootstrap_004",
+      "point_name": "core_resnext50_os_xsr",
+      "proposal_budget": 256,
+      "time_cap_minutes": 15.0
+    },
+    "Cost-interface-first": {
+      "cost": 112941579498.06801,
+      "cost_overall": 308111.0994,
+      "design_id": "paper_core_bootstrap_006",
+      "point_name": "core_resnext50_os_xsr",
+      "proposal_budget": 256,
+      "time_cap_minutes": 15.0
+    },
+    "Joint": {
+      "cost": 107747854892.6764,
+      "cost_overall": 307258.10608,
+      "design_id": "paper_core_bootstrap_001",
+      "point_name": "core_resnext50_os_xsr",
+      "proposal_budget": 256,
+      "time_cap_minutes": 15.0
+    },
+    "Memory-off": {
+      "cost": 121437364529.33682,
+      "cost_overall": 306567.36545,
+      "design_id": "paper_core_bootstrap_008",
+      "point_name": "core_resnext50_os_xsr",
+      "proposal_budget": 256,
+      "time_cap_minutes": 15.0
+    },
+    "Outer-loop repair": {
+      "cost": 104137486728.2676,
+      "cost_overall": 305472.30446,
+      "design_id": "paper_core_bootstrap_007",
+      "point_name": "core_resnext50_os_xsr",
+      "proposal_budget": 256,
+      "time_cap_minutes": 15.0
+    },
+    "Package-oblivious": {
+      "cost": 111161008000.64702,
+      "cost_overall": 303351.05656,
+      "design_id": "paper_core_bootstrap_003",
+      "point_name": "core_resnext50_os_xsr",
+      "proposal_budget": 256,
+      "time_cap_minutes": 15.0
+    },
+    "Partition-first": {
+      "cost": 108692471115.00406,
+      "cost_overall": 308054.91047,
+      "design_id": "paper_core_bootstrap_005",
+      "point_name": "core_resnext50_os_xsr",
+      "proposal_budget": 256,
+      "time_cap_minutes": 15.0
+    },
+    "Stage-wise": {
+      "cost": 100947237495.67772,
+      "cost_overall": 310402.57204,
+      "design_id": "paper_core_bootstrap_002",
+      "point_name": "core_resnext50_os_xsr",
+      "proposal_budget": 256,
+      "time_cap_minutes": 15.0
+    }
+  },
+  "config_path": "configs/paper_core.json",
+  "design_ids": [
+    "paper_core_bootstrap_001",
+    "paper_core_bootstrap_002",
+    "paper_core_bootstrap_003",
+    "paper_core_bootstrap_004",
+    "paper_core_bootstrap_005",
+    "paper_core_bootstrap_006",
+    "paper_core_bootstrap_007",
+    "paper_core_bootstrap_008",
+    "paper_core_bootstrap_009",
+    "paper_core_bootstrap_010",
+    "paper_core_bootstrap_011",
+    "paper_core_bootstrap_012",
+    "paper_core_bootstrap_013",
+    "paper_core_bootstrap_014",
+    "paper_core_bootstrap_015",
+    "paper_core_bootstrap_016",
+    "paper_core_bootstrap_017",
+    "paper_core_bootstrap_018",
+    "paper_core_bootstrap_019",
+    "paper_core_bootstrap_020",
+    "paper_core_bootstrap_021",
+    "paper_core_bootstrap_022",
+    "paper_core_bootstrap_023",
+    "paper_core_bootstrap_024"
+  ],
+  "engine": "python_native",
+  "point_count": 24,
+  "proposal_budgets": [
+    256
+  ],
+  "raw_dir": "results/raw/20260405_205311_paper_core_bootstrap",
+  "run_name": "20260405_205311_paper_core_bootstrap",
+  "tier": "paper-core",
+  "time_cap_minutes": [
+    15.0
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "design_ids": [
+    "paper_smoke_001"
+  ],
+  "record_count": 1,
+  "record_dir": "results/aggregated/20260405_205311_paper_smoke/design_records",
+  "schema_version": "python_native_v1",
+  "source_csv": "results/aggregated/20260405_205311_paper_smoke/result.csv"
+}

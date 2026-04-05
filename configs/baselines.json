@@ -1,0 +1,99 @@
+{
+  "Architecture-first": {
+    "description": "Architecture variables move first, then partition, interface, package, and memory choices are projected afterward.",
+    "family": "projected",
+    "ordering": [
+      "a",
+      "k",
+      "i",
+      "p",
+      "b"
+    ],
+    "status": "bootstrap_declared"
+  },
+  "Cost-interface-first": {
+    "description": "Cost and interface projection is resolved early before package and memory closure.",
+    "family": "projected",
+    "ordering": [
+      "i",
+      "p",
+      "a",
+      "k",
+      "b"
+    ],
+    "status": "bootstrap_declared"
+  },
+  "Outer-loop repair": {
+    "description": "Outer-loop repair ordering kept as a strong projected baseline.",
+    "family": "projected",
+    "ordering": [
+      "a",
+      "k",
+      "b",
+      "i",
+      "p"
+    ],
+    "status": "bootstrap_declared"
+  },
+  "Joint": {
+    "description": "Joint search over the full PICASSO state tuple d=(m,a,k,i,p,b).",
+    "family": "joint",
+    "ordering": [
+      "m",
+      "a",
+      "k",
+      "i",
+      "p",
+      "b"
+    ],
+    "status": "bootstrap_declared"
+  },
+  "Memory-off": {
+    "description": "Projected control that disables memory-aware projection to quantify attachment sensitivity.",
+    "family": "ablation",
+    "ordering": [
+      "a",
+      "k",
+      "i",
+      "p"
+    ],
+    "status": "bootstrap_declared"
+  },
+  "Package-oblivious": {
+    "description": "Projected baseline that ignores package richness during earlier stages and repairs package feasibility later.",
+    "family": "projected",
+    "ordering": [
+      "a",
+      "k",
+      "i",
+      "b",
+      "p"
+    ],
+    "status": "bootstrap_declared"
+  },
+  "Partition-first": {
+    "description": "Chiplet partitioning is fixed before architecture refinement and later package/interface closure.",
+    "family": "projected",
+    "ordering": [
+      "k",
+      "a",
+      "i",
+      "p",
+      "b"
+    ],
+    "status": "bootstrap_declared"
+  },
+  "Stage-wise": {
+    "description": "Stage-wise projected baseline that moves one variable family at a time with repair between stages.",
+    "family": "projected",
+    "ordering": [
+      "m",
+      "a",
+      "k",
+      "i",
+      "p",
+      "b"
+    ],
+    "status": "bootstrap_declared"
+  }
+}

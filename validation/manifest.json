@@ -1,0 +1,16 @@
+{
+  "generated_files": [
+    "validation/compute_grounding.csv",
+    "validation/interface_envelope.csv",
+    "validation/package_yield_anchor.csv",
+    "results/figures/fig3_validation.pdf",
+    "results/figures/fig3_validation.png"
+  ],
+  "notes": [
+    "Bootstrap validation data combine config registries with the latest smoke, paper-core, and paper-full runs.",
+    "Compute grounding uses Joint-baseline snapshots and requires at least two comparable matched legal anchors; otherwise it falls back to process-registry normalization.",
+    "The trends are grounded in the current scaffold and remain placeholders for later calibration."
+  ],
+  "schema_version": "bootstrap_v0",
+  "status": "bootstrap_validation"
+}

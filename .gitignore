@@ -1,0 +1,47 @@
+# PICASSO repository ignore rules
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*~
+.*.swp
+
+# Build and temporary directories
+build/
+dist/
+output/
+tmp/
+once_output/
+
+# Runtime logs and profiling dumps
+*.log
+gmon.out
+callgrind.out.*
+
+# Native binaries and objects
+*.a
+*.o
+*.obj
+*.so
+*.so.*
+*.dll
+*.exe
+*.core
+
+# Keep repository data artifacts tracked by default.
+# If future runs generate machine-local scratch bundles, ignore them explicitly
+# with path-specific entries instead of broad file-type rules.

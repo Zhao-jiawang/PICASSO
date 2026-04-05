@@ -1,0 +1,9 @@
+design_id,baseline_mode,workload_motif,chiplet_count,regime,package_class,interface_class,process_node,tops_target_tops,edp,cost,energy,cycle,status
+paper_full_bootstrap_001,Joint,cnn_inference,1,mono,OS,XSR,12,72,141587340618.339294,141588898079.086090,10349951.799590,13680,bootstrap_observed
+paper_full_bootstrap_009,Joint,long_context_prefill,4,few,FO,UCIe,7,128,78547719417921683456.000000,78548583442835275776.000000,53984553018.319183,1455003608,bootstrap_observed
+paper_full_bootstrap_017,Joint,kv_heavy_decode,4,few,SI,UCIe,7,128,1708254915218.597900,1708273706022.665283,49362969.289100,34606,bootstrap_observed
+paper_full_bootstrap_025,Joint,cnn_inference,4,few,SI,USR,7,512,28864242703.353828,28864560210.023560,44889957.547980,643,bootstrap_observed
+paper_full_bootstrap_033,Joint,long_context_prefill,4,few,FO,UCIe,7,512,53987546280997949538304.000000,53988140144007038631936.000000,1788731170820.902344,30182034708,bootstrap_observed
+paper_full_bootstrap_041,Joint,dense_decoder_block,4,few,OS,XSR,12,128,18540054420496968.000000,18540258361095592.000000,2482982701.736660,7466848,bootstrap_observed
+paper_full_bootstrap_049,Joint,mixtral_moe_trace,8,many,SI,UCIe,7,512,1860211444597308416.000000,1860231906923198976.000000,16826561538.155251,110552084,bootstrap_observed
+paper_full_bootstrap_057,Joint,megatron_collective_trace,8,many,FO,UCIe,7,512,12629426637473998848.000000,12629565561167011840.000000,160881116164.037903,78501610,bootstrap_observed

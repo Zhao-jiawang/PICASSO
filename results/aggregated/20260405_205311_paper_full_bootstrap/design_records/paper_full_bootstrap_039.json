@@ -1,0 +1,262 @@
+{
+  "baseline_mode": "Outer-loop repair",
+  "best_state": {
+    "batch_cluster": false,
+    "interleave": true,
+    "mapping_tiling": 3,
+    "memory_balance": 1.0763553737800213,
+    "memory_prefetch": 3,
+    "noc_balance": 1.04190941792565,
+    "pipeline_depth": 2,
+    "placement_skew": -0.027361180050420292,
+    "route_slack": 0.8001162599896691,
+    "segment_span": 3,
+    "spm_level": 3
+  },
+  "closure_terms": {
+    "M1": 1900.105334,
+    "M2": 543.323122,
+    "Si": 1.0,
+    "Sp": 1.35
+  },
+  "cost_breakdown": {
+    "cost_chip": 11.01948,
+    "cost_package": 5.72827,
+    "cost_soc": 2986083.67878,
+    "cost_system_package": 2649940.73833
+  },
+  "derived_terms": {
+    "amortized_nre_cost": 2986058.931024179,
+    "assembly_waste_cost": 1.2944170212228585,
+    "avg_mapped_utilization": 1.0,
+    "avg_partition_utilization": 1.0,
+    "boundary_count": 1.0,
+    "buffer_area": 9.2862,
+    "buffer_average_bytes": 484895.0,
+    "buffer_capacity_bytes": 507904.0,
+    "buffer_margin": 23009.0,
+    "buffer_overflow_core_count": 0.0,
+    "buffer_overflow_ratio": 0.0,
+    "buffer_peak_bytes": 484895.0,
+    "channel_count_available": 16.0,
+    "channel_count_required": 1.0,
+    "chip_nre": 100837176.29056735,
+    "collective_pressure": 0.528,
+    "compute_array_area": 34.51392,
+    "compute_cycles": 31240501539.0,
+    "control_area": 7.826416708030251,
+    "defect_die_cost": 0.1310441147306165,
+    "distinct_chip_type_count": 2.0,
+    "dram_channel_imbalance": 0.7674348414869996,
+    "dram_channel_margin": 31.14159779614325,
+    "dram_service_cycles": 394297834.0,
+    "edge_margin": 1900.1053338909212,
+    "endpoint_latency_cycles": 34.0,
+    "graph_layer_count": 5.0,
+    "interposer_area": 83.009188477495,
+    "io_competition_score": 0.015036595244164182,
+    "layout_locality_score": 0.0,
+    "locality_score": 0.5739582486350016,
+    "memory_margin": 543.3231216172834,
+    "module_nre": 164911587.77529007,
+    "multicast_degree": 2.08,
+    "noc_margin": 31.86713227729239,
+    "noc_service_cycles": 484933293.0,
+    "nop_service_cycles": 1032669217.0,
+    "overflow_core_count": 0.0,
+    "package_area": 332.03675390998,
+    "package_defect_cost": 0.6263073034192534,
+    "package_nre": 630068915.2413963,
+    "peak_dram_channel_gbps": 0.8584022038567488,
+    "peak_noc_link_gbps": 1.4739690963284102,
+    "peak_nop_link_gbps": 1.2424393961974434,
+    "peak_route_link_gbps": 1.4739690963284102,
+    "peak_ubuf_bytes": 13340979.0,
+    "per_compute_die_area": 14.068231252938244,
+    "phy_count": 256.0,
+    "raw_die_cost": 10.888433326873988,
+    "raw_package_cost": 3.8075502242183052,
+    "remote_weight_share": 0.75,
+    "route_margin": 2053.9501446208,
+    "schedule_tree_height": 2.0,
+    "segment_count": 2.0,
+    "segment_crossing_count": 1.0,
+    "segment_stage_count_avg": 2.5,
+    "segment_sync_cycles": 28.0,
+    "serialization_ratio": 0.07777755799250714,
+    "shortcut_input_count": 1.0,
+    "spm_overflow_ratio": 0.0,
+    "spm_residency": 0.9750000000000001,
+    "total_interchip_bw": 5.466827679176257
+  },
+  "design_id": "paper_full_bootstrap_039",
+  "die_area_breakdown": {
+    "compute_die_area": 56.27293,
+    "io_die_area": 12.9014,
+    "total_die_area": 69.17432
+  },
+  "energy_breakdown": {
+    "buf": 5783979617.40878,
+    "bus": 13631102.96289,
+    "dram": 210451138200.2073,
+    "mac": 2001333626.58492,
+    "noc": 661123033809.7373,
+    "nop": 872040248648.8837,
+    "ubuf": 3114450563.22011
+  },
+  "execution_controls": {
+    "proposal_budget": 512,
+    "time_cap_minutes": 30.0
+  },
+  "legality_details": {
+    "buffer_margin": 23009.0,
+    "channel_count_available": 16,
+    "channel_count_required": 1,
+    "dram_channel_margin": 31.141598,
+    "edge_margin": 1900.105334,
+    "io_competition_score": 0.015037,
+    "memory_margin": 543.323122,
+    "memory_required_bw_gbps": 7.77083,
+    "noc_margin": 31.867132,
+    "peak_dram_channel_gbps": 0.858402,
+    "peak_noc_link_gbps": 1.473969,
+    "peak_nop_link_gbps": 1.242439,
+    "peak_route_link_gbps": 1.473969,
+    "reasons": [],
+    "route_margin": 2053.950145,
+    "total_interchip_bw": 5.466828
+  },
+  "legality_flags": {
+    "buffer": "legal",
+    "edge": "legal",
+    "memory": "legal",
+    "memory_channel": "legal",
+    "noc": "legal",
+    "overall": "legal",
+    "route": "legal"
+  },
+  "memory_attachment": {
+    "channel_count_available": 16,
+    "channel_count_required": 1,
+    "memory_bandwidth_gbps": 512,
+    "memory_channel_bandwidth_gbps": 32.0,
+    "memory_class": "GDDR6X",
+    "noc_bandwidth": 32
+  },
+  "notes": {
+    "chiplet_geometry": {
+      "chiplet_count": 4,
+      "per_die_exposed_edges": 16,
+      "total_exposed_edge_slots": 64,
+      "x_step": 4,
+      "y_step": 4
+    },
+    "message": "This canonical design record is exported directly from the Python-native search summary and its derived evaluation terms.",
+    "status": "exported_from_search_summary",
+    "workload_ref": "workloads/long_context_prefill.json",
+    "workload_status": "runnable_binding"
+  },
+  "package_class": "FO",
+  "paths": {
+    "point_snapshot": "results/raw/20260405_205311_paper_full_bootstrap/paper_full_bootstrap_039/point_snapshot.json",
+    "result_log": "results/raw/20260405_205311_paper_full_bootstrap/paper_full_bootstrap_039/result.log",
+    "stderr_log": "results/raw/20260405_205311_paper_full_bootstrap/paper_full_bootstrap_039/stderr.log",
+    "stdout_log": "results/raw/20260405_205311_paper_full_bootstrap/paper_full_bootstrap_039/stdout.log"
+  },
+  "per_edge_bandwidth": {
+    "edge_capacity": 1901.472042,
+    "edge_demand": 1.366708,
+    "edge_margin": 1900.105334,
+    "per_die_exposed_edges": 16,
+    "route_budget": 2055.424114,
+    "route_demand": 1.473969,
+    "route_margin": 2053.950145,
+    "total_exposed_edge_slots": 64
+  },
+  "phy_count": 256,
+  "process_node": "7",
+  "proposal_budget": 512,
+  "schema_version": "python_native_v1",
+  "seed": 31,
+  "state_tuple": {
+    "a": {
+      "core_array": {
+        "x": 8,
+        "y": 8
+      },
+      "macs_per_core": 4096,
+      "microarch": "polar",
+      "ul3_kb": 4096
+    },
+    "b": {
+      "memory_bandwidth_gbps": 512,
+      "memory_class": "GDDR6X",
+      "noc_bandwidth": 32
+    },
+    "i": {
+      "interface_class": "UCIe",
+      "nop_bandwidth": 32
+    },
+    "k": {
+      "chiplet_count": 4,
+      "chiplet_partition": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "m": {
+      "batch_size": 1,
+      "search_rounds": 2,
+      "workload": "long_context_prefill",
+      "workload_motif": "long_context_prefill",
+      "workload_ref": "workloads/long_context_prefill.json",
+      "workload_trace_ref": null,
+      "workload_trace_summary": {}
+    },
+    "p": {
+      "package_class": "FO"
+    }
+  },
+  "surrogate_metrics": {
+    "cost": 5.653389374734558e+22,
+    "cost_overall": 2986083.6787761697,
+    "edp": 5.5863200166150775e+22,
+    "energy": 1754527815569.0051,
+    "latency_cycles": 31839449720
+  },
+  "time_cap_minutes": 30.0,
+  "tops_target": 512,
+  "trace_id": "long_context_prefill",
+  "traffic_matrix": [
+    [
+      0.0,
+      0.621418,
+      0.621418,
+      0.123872
+    ],
+    [
+      0.621418,
+      0.0,
+      0.123872,
+      0.621418
+    ],
+    [
+      0.621418,
+      0.123872,
+      0.0,
+      0.621418
+    ],
+    [
+      0.123872,
+      0.621418,
+      0.621418,
+      0.0
+    ]
+  ],
+  "workload": "long_context_prefill",
+  "workload_motif": "long_context_prefill",
+  "workload_trace": {
+    "summary": {},
+    "trace_ref": null
+  }
+}

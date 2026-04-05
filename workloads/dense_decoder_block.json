@@ -1,0 +1,11 @@
+{
+  "description": "Dense decoder block workload binding",
+  "execution_binding": "bert_block",
+  "picasso_workload": "dense_decoder_block",
+  "motif": "dense_decoder_block",
+  "notes": [
+    "Uses canonical PICASSO workload identity.",
+    "Execution binding to concrete kernels is resolved inside the Python-native runner."
+  ],
+  "status": "runnable_binding"
+}

@@ -1,0 +1,2 @@
+design_id,baseline_mode,workload_motif,package_class,interface_class,cost,energy,cycle,is_pareto_front,status
+paper_smoke_001,Joint,cnn_inference,OS,XSR,114424860554.640549,15765169.729270,7258,true,bootstrap_observed

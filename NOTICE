@@ -1,0 +1,23 @@
+PICASSO
+Copyright 2026 Zhao-jiawang
+
+This repository is distributed under the Apache License, Version 2.0.
+See the LICENSE file for the full license text.
+
+This public repository is maintained as a Python-native PICASSO codebase and
+artifact release owned by Zhao-jiawang.
+
+Acknowledged research context and external references:
+
+- Jingwei Cai, Zuotong Wu, Sen Peng, Yuchen Wei, Zhanhong Tan, Guiming Shi,
+  Mingyu Gao, and Kaisheng Ma. "Gemini: Mapping and Architecture
+  Co-exploration for Large-scale DNN Chiplet Accelerators." HPCA 2024.
+- Jingwei Cai, Yuchen Wei, Zuotong Wu, Sen Peng, and Kaisheng Ma.
+  "Inter-layer Scheduling Space Definition and Exploration for Tiled
+  Accelerators." ISCA 2023.
+- "Chiplet Actuary: A Quantitative Cost Model and Multi-Chiplet Architecture
+  Exploration." DAC 2022.
+
+These references are retained as scholarly acknowledgements and background for
+the PICASSO project. The public PICASSO release is published with its own
+repository history and project-level license files.

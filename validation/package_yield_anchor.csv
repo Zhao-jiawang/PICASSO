@@ -1,0 +1,4 @@
+package_class,observed_design_count,avg_package_cost,avg_chip_cost,avg_total_die_area,yield_pressure_proxy,trend_tag,status
+FO,24,5.700171,9.816342,61.181233,600.575915,costlier,bootstrap_observed
+OS,16,0.848748,2.891690,25.687034,74.278940,better,bootstrap_observed
+SI,24,12.134084,11.015065,69.132987,761.504380,costlier,bootstrap_observed

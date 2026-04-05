@@ -1,0 +1,220 @@
+{
+  "command": [
+    "python_native_engine"
+  ],
+  "design_id": "paper_full_bootstrap_059",
+  "engine": "python_native",
+  "execution_controls": {
+    "proposal_budget": 512,
+    "time_cap_minutes": 30.0
+  },
+  "normalized_point": {
+    "IO_type": "UCIe",
+    "baseline_mode": "Package-oblivious",
+    "bb": 1,
+    "ddr_bw": 524288,
+    "ddr_type": "GDDR6X",
+    "design_name": "full_megatron_collective_fo_ucie",
+    "ff": 1,
+    "mac": 4096,
+    "microarch_name": "polar",
+    "mm": 0,
+    "nn": 10,
+    "noc": 32,
+    "nop_bw": 32,
+    "objective_name": "edp",
+    "package_type": "FO",
+    "proposal_budget": 512,
+    "rr": 2,
+    "seed": 61,
+    "ss": 4,
+    "tech": "7",
+    "time_cap_minutes": 30.0,
+    "tops": 524288,
+    "tops_target_tops": 512,
+    "ul3": 4096,
+    "workload_exec_name": "transformer",
+    "workload_motif": "megatron_collective_trace",
+    "workload_name": "megatron_collective_trace",
+    "workload_ref": "workloads/megatron_collective_trace.json",
+    "workload_status": "runnable_trace_binding",
+    "workload_trace_ref": "workloads/generated/megatron_collective_trace.json",
+    "workload_trace_scalars": {
+      "edge_factor_scale": 1.09,
+      "memory_factor_scale": 1.053333,
+      "route_factor_scale": 1.16
+    },
+    "workload_trace_summary": {
+      "all_gather_count": 3,
+      "all_reduce_count": 3,
+      "bucket_size_mb": 128,
+      "high_memory_phase_count": 2,
+      "high_route_phase_count": 3,
+      "phase_count": 6,
+      "trace_type": "megatron_collective_trace"
+    },
+    "xcut": 4,
+    "xx": 8,
+    "ycut": 2,
+    "yy": 8
+  },
+  "paths": {
+    "result_log": "results/raw/20260405_205311_paper_full_bootstrap/paper_full_bootstrap_059/result.log",
+    "search_trace": "results/raw/20260405_205311_paper_full_bootstrap/paper_full_bootstrap_059/search_trace.jsonl",
+    "stderr_log": "results/raw/20260405_205311_paper_full_bootstrap/paper_full_bootstrap_059/stderr.log",
+    "stdout_log": "results/raw/20260405_205311_paper_full_bootstrap/paper_full_bootstrap_059/stdout.log"
+  },
+  "returncode": 0,
+  "search_summary": {
+    "accepted_moves": 433,
+    "baseline_mode": "Package-oblivious",
+    "best_eval": {
+      "cost_overall": 3631240.9387684725,
+      "cycle": 86744272,
+      "derived_terms": {
+        "amortized_nre_cost": 3631210.106931782,
+        "assembly_waste_cost": 2.9257710760006,
+        "avg_mapped_utilization": 1.0,
+        "avg_partition_utilization": 1.0,
+        "boundary_count": 2.0,
+        "buffer_area": 18.5724,
+        "buffer_average_bytes": 444506.0,
+        "buffer_capacity_bytes": 1015808.0,
+        "buffer_margin": 571302.0,
+        "buffer_overflow_core_count": 0.0,
+        "buffer_overflow_ratio": 0.0,
+        "buffer_peak_bytes": 444506.0,
+        "channel_count_available": 16.0,
+        "channel_count_required": 5.0,
+        "chip_nre": 99969213.55502191,
+        "collective_pressure": 1.6,
+        "compute_array_area": 31.28832,
+        "compute_cycles": 69371403.0,
+        "control_area": 7.181602330340565,
+        "defect_die_cost": 0.11443116892418681,
+        "distinct_chip_type_count": 2.0,
+        "dram_channel_imbalance": 1.3333238982139397,
+        "dram_channel_margin": 12.841112231182798,
+        "dram_service_cycles": 16187106.0,
+        "edge_margin": 2804.6009969222673,
+        "endpoint_latency_cycles": 44.0,
+        "graph_layer_count": 12.0,
+        "interposer_area": 103.50251051874166,
+        "io_competition_score": 0.02008261314596655,
+        "layout_locality_score": 0.0,
+        "locality_score": 0.5541602282160473,
+        "memory_margin": 284.58569681386507,
+        "module_nre": 205624987.5639001,
+        "multicast_degree": 5.0,
+        "noc_margin": 15.233273365924312,
+        "noc_service_cycles": 17345898.0,
+        "nop_service_cycles": 29953131.0,
+        "overflow_core_count": 0.0,
+        "package_area": 414.01004207496663,
+        "package_defect_cost": 1.3111833199521221,
+        "package_nre": 783768830.9606127,
+        "peak_dram_channel_gbps": 19.158887768817202,
+        "peak_noc_link_gbps": 21.896259398101442,
+        "peak_nop_link_gbps": 19.159447279625848,
+        "peak_route_link_gbps": 21.896259398101442,
+        "peak_ubuf_bytes": 2641108.0,
+        "per_compute_die_area": 8.62765125246401,
+        "phy_count": 384.0,
+        "raw_die_cost": 13.717778417165695,
+        "raw_package_cost": 4.762672708283776,
+        "remote_weight_share": 0.875,
+        "route_margin": 2469.6766756426414,
+        "schedule_tree_height": 2.0,
+        "segment_count": 3.0,
+        "segment_crossing_count": 2.0,
+        "segment_stage_count_avg": 4.0,
+        "segment_sync_cycles": 49.0,
+        "serialization_ratio": 0.8635584341981193,
+        "shortcut_input_count": 2.0,
+        "spm_overflow_ratio": 0.0,
+        "spm_residency": 0.9625,
+        "total_interchip_bw": 114.96407510080721
+      },
+      "edp": 1.3497742552368226e+19,
+      "energy": 155603848428.9571,
+      "illegal_reasons": [],
+      "legal": true,
+      "legality_flags": {
+        "buffer": "legal",
+        "edge": "legal",
+        "memory": "legal",
+        "memory_channel": "legal",
+        "noc": "legal",
+        "overall": "legal",
+        "route": "legal"
+      },
+      "objective_score": 1.3551868500003224e+19
+    },
+    "best_round": 467,
+    "best_state": {
+      "batch_cluster": false,
+      "interleave": true,
+      "mapping_tiling": 1,
+      "memory_balance": 0.8124247235597855,
+      "memory_prefetch": 3,
+      "noc_balance": 1.1602978988758048,
+      "pipeline_depth": 1,
+      "placement_skew": -0.10133527528380507,
+      "route_slack": 0.65,
+      "segment_span": 4,
+      "spm_level": 3
+    },
+    "engine": "python_native",
+    "legal_moves": 267,
+    "proposal_budget": 512,
+    "runtime_seconds": 255.72695785574615
+  },
+  "state_tuple": {
+    "a": {
+      "core_array": {
+        "x": 8,
+        "y": 8
+      },
+      "macs_per_core": 4096,
+      "microarch": "polar",
+      "ul3_kb": 4096
+    },
+    "b": {
+      "memory_bandwidth_gbps": 512,
+      "memory_class": "GDDR6X",
+      "noc_bandwidth": 32
+    },
+    "i": {
+      "interface_class": "UCIe",
+      "nop_bandwidth": 32
+    },
+    "k": {
+      "chiplet_count": 8,
+      "chiplet_partition": {
+        "x": 4,
+        "y": 2
+      }
+    },
+    "m": {
+      "batch_size": 1,
+      "search_rounds": 2,
+      "workload": "megatron_collective_trace",
+      "workload_motif": "megatron_collective_trace",
+      "workload_ref": "workloads/megatron_collective_trace.json",
+      "workload_trace_ref": "workloads/generated/megatron_collective_trace.json",
+      "workload_trace_summary": {
+        "all_gather_count": 3,
+        "all_reduce_count": 3,
+        "bucket_size_mb": 128,
+        "high_memory_phase_count": 2,
+        "high_route_phase_count": 3,
+        "phase_count": 6,
+        "trace_type": "megatron_collective_trace"
+      }
+    },
+    "p": {
+      "package_class": "FO"
+    }
+  },
+  "tier": "paper-full"
+}

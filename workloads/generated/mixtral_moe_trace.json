@@ -1,0 +1,539 @@
+{
+  "experts": [
+    "expert_0",
+    "expert_1",
+    "expert_2",
+    "expert_3",
+    "expert_4",
+    "expert_5",
+    "expert_6",
+    "expert_7"
+  ],
+  "notes": [
+    "This is the deterministic Mixtral-style MoE trace artifact used by the PICASSO workload layer.",
+    "Its metadata is consumed by the Python-native workload resolver and evaluator."
+  ],
+  "required_properties": {
+    "expert_count": 8,
+    "load_imbalance_factor": 1.35,
+    "locality_probability": 0.34,
+    "top_k": 2
+  },
+  "status": "generated_trace",
+  "tokens": [
+    {
+      "locality_hit": true,
+      "token_id": 0,
+      "top2_experts": [
+        "expert_0",
+        "expert_1"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 1,
+      "top2_experts": [
+        "expert_0",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 2,
+      "top2_experts": [
+        "expert_1",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 3,
+      "top2_experts": [
+        "expert_0",
+        "expert_3"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 4,
+      "top2_experts": [
+        "expert_3",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 5,
+      "top2_experts": [
+        "expert_0",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 6,
+      "top2_experts": [
+        "expert_5",
+        "expert_6"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 7,
+      "top2_experts": [
+        "expert_0",
+        "expert_7"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 8,
+      "top2_experts": [
+        "expert_0",
+        "expert_1"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 9,
+      "top2_experts": [
+        "expert_0",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 10,
+      "top2_experts": [
+        "expert_1",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 11,
+      "top2_experts": [
+        "expert_0",
+        "expert_3"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 12,
+      "top2_experts": [
+        "expert_3",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 13,
+      "top2_experts": [
+        "expert_0",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 14,
+      "top2_experts": [
+        "expert_5",
+        "expert_6"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 15,
+      "top2_experts": [
+        "expert_0",
+        "expert_7"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 16,
+      "top2_experts": [
+        "expert_0",
+        "expert_1"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 17,
+      "top2_experts": [
+        "expert_0",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 18,
+      "top2_experts": [
+        "expert_1",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 19,
+      "top2_experts": [
+        "expert_0",
+        "expert_3"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 20,
+      "top2_experts": [
+        "expert_3",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 21,
+      "top2_experts": [
+        "expert_0",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 22,
+      "top2_experts": [
+        "expert_5",
+        "expert_6"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 23,
+      "top2_experts": [
+        "expert_0",
+        "expert_7"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 24,
+      "top2_experts": [
+        "expert_0",
+        "expert_1"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 25,
+      "top2_experts": [
+        "expert_0",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 26,
+      "top2_experts": [
+        "expert_1",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 27,
+      "top2_experts": [
+        "expert_0",
+        "expert_3"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 28,
+      "top2_experts": [
+        "expert_3",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 29,
+      "top2_experts": [
+        "expert_0",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 30,
+      "top2_experts": [
+        "expert_5",
+        "expert_6"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 31,
+      "top2_experts": [
+        "expert_0",
+        "expert_7"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 32,
+      "top2_experts": [
+        "expert_0",
+        "expert_1"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 33,
+      "top2_experts": [
+        "expert_0",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 34,
+      "top2_experts": [
+        "expert_1",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 35,
+      "top2_experts": [
+        "expert_0",
+        "expert_3"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 36,
+      "top2_experts": [
+        "expert_3",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 37,
+      "top2_experts": [
+        "expert_0",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 38,
+      "top2_experts": [
+        "expert_5",
+        "expert_6"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 39,
+      "top2_experts": [
+        "expert_0",
+        "expert_7"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 40,
+      "top2_experts": [
+        "expert_0",
+        "expert_1"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 41,
+      "top2_experts": [
+        "expert_0",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 42,
+      "top2_experts": [
+        "expert_1",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 43,
+      "top2_experts": [
+        "expert_0",
+        "expert_3"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 44,
+      "top2_experts": [
+        "expert_3",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 45,
+      "top2_experts": [
+        "expert_0",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 46,
+      "top2_experts": [
+        "expert_5",
+        "expert_6"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 47,
+      "top2_experts": [
+        "expert_0",
+        "expert_7"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 48,
+      "top2_experts": [
+        "expert_0",
+        "expert_1"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 49,
+      "top2_experts": [
+        "expert_0",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 50,
+      "top2_experts": [
+        "expert_1",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 51,
+      "top2_experts": [
+        "expert_0",
+        "expert_3"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 52,
+      "top2_experts": [
+        "expert_3",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 53,
+      "top2_experts": [
+        "expert_0",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 54,
+      "top2_experts": [
+        "expert_5",
+        "expert_6"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 55,
+      "top2_experts": [
+        "expert_0",
+        "expert_7"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 56,
+      "top2_experts": [
+        "expert_0",
+        "expert_1"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 57,
+      "top2_experts": [
+        "expert_0",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 58,
+      "top2_experts": [
+        "expert_1",
+        "expert_2"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 59,
+      "top2_experts": [
+        "expert_0",
+        "expert_3"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 60,
+      "top2_experts": [
+        "expert_3",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 61,
+      "top2_experts": [
+        "expert_0",
+        "expert_4"
+      ]
+    },
+    {
+      "locality_hit": false,
+      "token_id": 62,
+      "top2_experts": [
+        "expert_5",
+        "expert_6"
+      ]
+    },
+    {
+      "locality_hit": true,
+      "token_id": 63,
+      "top2_experts": [
+        "expert_0",
+        "expert_7"
+      ]
+    }
+  ],
+  "trace_id": "mixtral_moe_trace",
+  "trace_type": "mixtral_moe_trace"
+}

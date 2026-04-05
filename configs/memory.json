@@ -1,0 +1,26 @@
+{
+  "GDDR6X": {
+    "description": "Bootstrap GDDR6X-like external memory configuration",
+    "dram_access_cost": 84.0,
+    "phy_density_area_per_gbps": 145.3125,
+    "controller_density_area_per_gbps_scale": 0.0,
+    "status": "bootstrap_registry",
+    "unit_cost_per_gbps": 0.125
+  },
+  "HBM": {
+    "description": "Bootstrap HBM-like external memory configuration",
+    "dram_access_cost": 44.0,
+    "phy_density_area_per_gbps": 613.7545787545787,
+    "controller_density_area_per_gbps_scale": 0.0,
+    "status": "bootstrap_registry_not_enabled",
+    "unit_cost_per_gbps": 0.3907203907203907
+  },
+  "LPDDR5": {
+    "description": "Bootstrap LPDDR5-like external memory configuration",
+    "dram_access_cost": 0.0,
+    "phy_density_area_per_gbps": 0.0,
+    "controller_density_area_per_gbps_scale": 0.0,
+    "status": "bootstrap_registry_not_enabled",
+    "unit_cost_per_gbps": 0.0
+  }
+}

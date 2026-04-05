@@ -1,0 +1,77 @@
+{
+  "$schema_note": "Bootstrap schema for the PICASSO unified Python-native runner. This is a repo-local contract, not yet a full SC2026 experiment schema.",
+  "required_top_level_keys": [
+    "experiment_name",
+    "tier",
+    "points"
+  ],
+  "optional_top_level_keys": [
+    "auto_build",
+    "baseline_mode",
+    "baseline_modes",
+    "description",
+    "engine",
+    "proposal_budget",
+    "time_cap_minutes"
+  ],
+  "point_required_keys": [
+    "design_name",
+    "process_node",
+    "microarch",
+    "core_array",
+    "stride",
+    "batch_size",
+    "search_rounds",
+    "objective",
+    "chiplet_partition",
+    "package_class",
+    "interface_class",
+    "memory_class",
+    "memory_bandwidth_gbps",
+    "noc_bandwidth",
+    "nop_bandwidth",
+    "macs_per_core",
+    "ul3_kb",
+    "tops_target_tops",
+    "seed"
+  ],
+  "point_optional_keys": [
+    "baseline_mode",
+    "baseline_modes",
+    "proposal_budget",
+    "time_cap_minutes",
+    "workload",
+    "workload_ref"
+  ],
+  "enums": {
+    "microarch": [
+      "polar",
+      "eyeriss"
+    ],
+    "objective": [
+      "latency",
+      "edp",
+      "energy"
+    ],
+    "engine": [
+      "python_native"
+    ],
+    "workload": [
+      "cnn_inference",
+      "long_context_prefill",
+      "kv_heavy_decode",
+      "dense_decoder_block",
+      "mixtral_moe_trace",
+      "megatron_collective_trace"
+    ]
+  },
+  "notes": [
+    "tops_target_tops is interpreted in TOPS and converted into the compatibility result schema by multiplying by 1024.",
+    "memory_bandwidth_gbps is interpreted in GB/s and converted into the compatibility result schema by multiplying by 1024.",
+    "The runner validates that 2 * core_array.x * core_array.y * macs_per_core equals tops_target_tops * 1024.",
+    "This schema now feeds a Python-native PICASSO search kernel rather than the old C++ stschedule binary.",
+    "A point must provide either workload or workload_ref. workload_ref should point to a JSON file under workloads/ that exposes a runnable picasso_workload.",
+    "baseline_modes expands a base design point into multiple baseline-tagged runs. It can appear at the config level or point level.",
+    "proposal_budget and time_cap_minutes are enforced in the Python-native search loop and snapshotted into each point bundle."
+  ]
+}

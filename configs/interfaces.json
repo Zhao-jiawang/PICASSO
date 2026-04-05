@@ -1,0 +1,56 @@
+{
+  "UCIe": {
+    "description": "Bootstrap UCIe-like D2D interface envelope",
+    "link_style": "parallel",
+    "package_overrides": {
+      "FO": {
+        "nop_density_area_per_gbps": 1584.786053882726,
+        "nop_hop_cost": 4.8
+      },
+      "OS": {
+        "nop_density_area_per_gbps": 6896.551724137931,
+        "nop_hop_cost": 8.0
+      },
+      "SI": {
+        "nop_density_area_per_gbps": 1055.9662090813093,
+        "nop_hop_cost": 2.4
+      }
+    },
+    "status": "bootstrap_registry",
+    "topology_penalty_model": "package_specific"
+  },
+  "USR": {
+    "description": "Bootstrap USR-like D2D interface envelope",
+    "lane_rate_gbps": 56,
+    "link_style": "parallel",
+    "status": "bootstrap_registry",
+    "tech_overrides": {
+      "7": {
+        "nop_density_area_per_gbps": 19307.14285714286,
+        "nop_hop_cost": 13.6
+      },
+      "12": {
+        "nop_density_area_per_gbps": 22942.345142857145,
+        "nop_hop_cost": 19.2
+      }
+    },
+    "topology_penalty_model": "bootstrap_density_lookup"
+  },
+  "XSR": {
+    "description": "Bootstrap XSR-like D2D interface envelope",
+    "lane_rate_gbps": 112,
+    "link_style": "serdes",
+    "status": "bootstrap_registry",
+    "tech_overrides": {
+      "7": {
+        "nop_density_area_per_gbps": 9653.57142857143,
+        "serdes_power_mw_per_lane": 69.6
+      },
+      "12": {
+        "nop_density_area_per_gbps": 11471.172571428573,
+        "serdes_power_mw_per_lane": 97.44
+      }
+    },
+    "topology_penalty_model": "bootstrap_density_lookup"
+  }
+}

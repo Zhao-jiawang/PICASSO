@@ -1,0 +1,2 @@
+design_id,reference_design_id,reference_baseline_mode,baseline_mode,workload_motif,cost_loss_pct,energy_loss_pct,latency_loss_pct,edp_loss_pct,status
+paper_smoke_001,paper_smoke_001,Joint,Joint,cnn_inference,0.000000,0.000000,0.000000,0.000000,bootstrap_observed

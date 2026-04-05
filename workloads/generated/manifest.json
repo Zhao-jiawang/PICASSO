@@ -1,0 +1,7 @@
+{
+  "generated_files": [
+    "workloads/generated/mixtral_moe_trace.json",
+    "workloads/generated/megatron_collective_trace.json"
+  ],
+  "status": "generated_trace_manifest"
+}

@@ -1,0 +1,4 @@
+baseline_mode,workload_motif,design_id,winner_design_id,edp_margin_pct,cost_margin_pct,chiplet_count,status
+Joint,cnn_inference,paper_core_bootstrap_001,paper_core_bootstrap_001,0.000000,0.000000,2,bootstrap_observed
+Joint,kv_heavy_decode,paper_core_bootstrap_017,paper_core_bootstrap_017,0.000000,0.000000,4,bootstrap_observed
+Joint,long_context_prefill,paper_core_bootstrap_009,paper_core_bootstrap_009,0.000000,0.000000,4,bootstrap_observed

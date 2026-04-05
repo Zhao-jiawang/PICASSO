@@ -1,0 +1,200 @@
+{
+  "command": [
+    "python_native_engine"
+  ],
+  "design_id": "paper_full_bootstrap_023",
+  "engine": "python_native",
+  "execution_controls": {
+    "proposal_budget": 512,
+    "time_cap_minutes": 30.0
+  },
+  "normalized_point": {
+    "IO_type": "UCIe",
+    "baseline_mode": "Outer-loop repair",
+    "bb": 1,
+    "ddr_bw": 262144,
+    "ddr_type": "GDDR6X",
+    "design_name": "full_decode_si_ucie",
+    "ff": 1,
+    "mac": 2048,
+    "microarch_name": "polar",
+    "mm": 0,
+    "nn": 17,
+    "noc": 32,
+    "nop_bw": 32,
+    "objective_name": "edp",
+    "package_type": "SI",
+    "proposal_budget": 512,
+    "rr": 3,
+    "seed": 11,
+    "ss": 4,
+    "tech": "7",
+    "time_cap_minutes": 30.0,
+    "tops": 131072,
+    "tops_target_tops": 128,
+    "ul3": 2048,
+    "workload_exec_name": "gpt2_decode_block",
+    "workload_motif": "kv_heavy_decode",
+    "workload_name": "kv_heavy_decode",
+    "workload_ref": "workloads/kv_heavy_decode.json",
+    "workload_status": "runnable_binding",
+    "workload_trace_ref": null,
+    "workload_trace_scalars": {},
+    "workload_trace_summary": {},
+    "xcut": 2,
+    "xx": 8,
+    "ycut": 2,
+    "yy": 4
+  },
+  "paths": {
+    "result_log": "results/raw/20260405_205311_paper_full_bootstrap/paper_full_bootstrap_023/result.log",
+    "search_trace": "results/raw/20260405_205311_paper_full_bootstrap/paper_full_bootstrap_023/search_trace.jsonl",
+    "stderr_log": "results/raw/20260405_205311_paper_full_bootstrap/paper_full_bootstrap_023/stderr.log",
+    "stdout_log": "results/raw/20260405_205311_paper_full_bootstrap/paper_full_bootstrap_023/stdout.log"
+  },
+  "returncode": 0,
+  "search_summary": {
+    "accepted_moves": 433,
+    "baseline_mode": "Outer-loop repair",
+    "best_eval": {
+      "cost_overall": 567454.907507907,
+      "cycle": 35994,
+      "derived_terms": {
+        "amortized_nre_cost": 567441.83182,
+        "assembly_waste_cost": 1.4787054682501228,
+        "avg_mapped_utilization": 1.0,
+        "avg_partition_utilization": 1.0,
+        "boundary_count": 1.0,
+        "buffer_area": 4.6431,
+        "buffer_average_bytes": 132096.0,
+        "buffer_capacity_bytes": 507904.0,
+        "buffer_margin": 375808.0,
+        "buffer_overflow_core_count": 0.0,
+        "buffer_overflow_ratio": 0.0,
+        "buffer_peak_bytes": 132096.0,
+        "channel_count_available": 8.0,
+        "channel_count_required": 3.0,
+        "chip_nre": 97493793.21121392,
+        "collective_pressure": 0.28,
+        "compute_array_area": 8.62848,
+        "compute_cycles": 31231.0,
+        "control_area": 5.863636885571195,
+        "defect_die_cost": 0.0235266554889787,
+        "distinct_chip_type_count": 2.0,
+        "dram_channel_imbalance": 0.774211198249134,
+        "dram_channel_margin": 16.579376560612168,
+        "dram_service_cycles": 5238.0,
+        "edge_margin": 1385.8472409097865,
+        "endpoint_latency_cycles": 33.0,
+        "graph_layer_count": 6.0,
+        "interposer_area": 32.67823835857706,
+        "io_competition_score": 0.010314805374843387,
+        "layout_locality_score": 0.03125,
+        "locality_score": 0.6613066494428173,
+        "memory_margin": 160.4910122661563,
+        "module_nre": 64920766.8723731,
+        "multicast_degree": 1.9466666666666665,
+        "noc_margin": 25.730060521452224,
+        "noc_service_cycles": 3519.0,
+        "nop_service_cycles": 8144.0,
+        "overflow_core_count": 0.0,
+        "package_area": 130.71295343430825,
+        "package_defect_cost": 0.6855283482266658,
+        "package_nre": 7817989.462412956,
+        "peak_dram_channel_gbps": 15.42062343938783,
+        "peak_noc_link_gbps": 12.683924671767999,
+        "peak_nop_link_gbps": 13.445800724929475,
+        "peak_route_link_gbps": 13.445800724929475,
+        "peak_ubuf_bytes": 132096.0,
+        "per_compute_die_area": 5.214346601318152,
+        "phy_count": 192.0,
+        "raw_die_cost": 4.818186919306464,
+        "raw_package_cost": 2.069740515780863,
+        "remote_weight_share": 0.75,
+        "route_margin": 2022.2411931520005,
+        "schedule_tree_height": 3.0,
+        "segment_count": 2.0,
+        "segment_crossing_count": 1.0,
+        "segment_stage_count_avg": 2.5,
+        "segment_sync_cycles": 36.0,
+        "serialization_ratio": 0.6135104699837675,
+        "shortcut_input_count": 1.0,
+        "spm_overflow_ratio": 0.0,
+        "spm_residency": 0.9750000000000001,
+        "total_interchip_bw": 53.150081804269
+      },
+      "edp": 1756570269926.8362,
+      "energy": 48801752.23445119,
+      "illegal_reasons": [],
+      "legal": true,
+      "legality_flags": {
+        "buffer": "legal",
+        "edge": "legal",
+        "memory": "legal",
+        "memory_channel": "legal",
+        "noc": "legal",
+        "overall": "legal",
+        "route": "legal"
+      },
+      "objective_score": 1777659652587.5776
+    },
+    "best_round": 510,
+    "best_state": {
+      "batch_cluster": true,
+      "interleave": true,
+      "mapping_tiling": 3,
+      "memory_balance": 0.8985285684165859,
+      "memory_prefetch": 3,
+      "noc_balance": 1.200437037288132,
+      "pipeline_depth": 4,
+      "placement_skew": -0.05606147595199132,
+      "route_slack": 0.8717189307249,
+      "segment_span": 3,
+      "spm_level": 3
+    },
+    "engine": "python_native",
+    "legal_moves": 484,
+    "proposal_budget": 512,
+    "runtime_seconds": 50.422738193534315
+  },
+  "state_tuple": {
+    "a": {
+      "core_array": {
+        "x": 8,
+        "y": 4
+      },
+      "macs_per_core": 2048,
+      "microarch": "polar",
+      "ul3_kb": 2048
+    },
+    "b": {
+      "memory_bandwidth_gbps": 256,
+      "memory_class": "GDDR6X",
+      "noc_bandwidth": 32
+    },
+    "i": {
+      "interface_class": "UCIe",
+      "nop_bandwidth": 32
+    },
+    "k": {
+      "chiplet_count": 4,
+      "chiplet_partition": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "m": {
+      "batch_size": 1,
+      "search_rounds": 3,
+      "workload": "kv_heavy_decode",
+      "workload_motif": "kv_heavy_decode",
+      "workload_ref": "workloads/kv_heavy_decode.json",
+      "workload_trace_ref": null,
+      "workload_trace_summary": {}
+    },
+    "p": {
+      "package_class": "SI"
+    }
+  },
+  "tier": "paper-full"
+}

@@ -1,0 +1,245 @@
+{
+  "auto_build": false,
+  "baseline_modes": [
+    "Joint",
+    "Stage-wise",
+    "Package-oblivious",
+    "Architecture-first",
+    "Partition-first",
+    "Cost-interface-first",
+    "Outer-loop repair",
+    "Memory-off"
+  ],
+  "description": "Python-native paper-full preset covering multiple processes, workloads, and package/interface combinations.",
+  "engine": "python_native",
+  "experiment_name": "paper_full_bootstrap",
+  "proposal_budget": 512,
+  "points": [
+    {
+      "batch_size": 1,
+      "chiplet_partition": {
+        "x": 1,
+        "y": 1
+      },
+      "core_array": {
+        "x": 6,
+        "y": 3
+      },
+      "design_name": "full_cnn_mono_os_xsr",
+      "interface_class": "XSR",
+      "macs_per_core": 2048,
+      "memory_bandwidth_gbps": 72,
+      "memory_class": "GDDR6X",
+      "microarch": "polar",
+      "noc_bandwidth": 16,
+      "nop_bandwidth": 16,
+      "objective": "edp",
+      "package_class": "OS",
+      "process_node": "12",
+      "search_rounds": 4,
+      "seed": 1,
+      "stride": 3,
+      "tops_target_tops": 72,
+      "ul3_kb": 1024,
+      "workload_ref": "workloads/cnn_inference.json"
+    },
+    {
+      "batch_size": 1,
+      "chiplet_partition": {
+        "x": 2,
+        "y": 2
+      },
+      "core_array": {
+        "x": 8,
+        "y": 4
+      },
+      "design_name": "full_prefill_fo_ucie",
+      "interface_class": "UCIe",
+      "macs_per_core": 2048,
+      "memory_bandwidth_gbps": 128,
+      "memory_class": "GDDR6X",
+      "microarch": "polar",
+      "noc_bandwidth": 32,
+      "nop_bandwidth": 16,
+      "objective": "edp",
+      "package_class": "FO",
+      "process_node": "7",
+      "search_rounds": 3,
+      "seed": 7,
+      "stride": 4,
+      "tops_target_tops": 128,
+      "ul3_kb": 2048,
+      "workload_ref": "workloads/long_context_prefill.json"
+    },
+    {
+      "batch_size": 1,
+      "chiplet_partition": {
+        "x": 2,
+        "y": 2
+      },
+      "core_array": {
+        "x": 8,
+        "y": 4
+      },
+      "design_name": "full_decode_si_ucie",
+      "interface_class": "UCIe",
+      "macs_per_core": 2048,
+      "memory_bandwidth_gbps": 256,
+      "memory_class": "GDDR6X",
+      "microarch": "polar",
+      "noc_bandwidth": 32,
+      "nop_bandwidth": 32,
+      "objective": "edp",
+      "package_class": "SI",
+      "process_node": "7",
+      "search_rounds": 3,
+      "seed": 11,
+      "stride": 4,
+      "tops_target_tops": 128,
+      "ul3_kb": 2048,
+      "workload_ref": "workloads/kv_heavy_decode.json"
+    },
+    {
+      "batch_size": 1,
+      "chiplet_partition": {
+        "x": 2,
+        "y": 2
+      },
+      "core_array": {
+        "x": 8,
+        "y": 8
+      },
+      "design_name": "full_cnn_si_usr_512",
+      "interface_class": "USR",
+      "macs_per_core": 4096,
+      "memory_bandwidth_gbps": 512,
+      "memory_class": "GDDR6X",
+      "microarch": "polar",
+      "noc_bandwidth": 32,
+      "nop_bandwidth": 32,
+      "objective": "edp",
+      "package_class": "SI",
+      "process_node": "7",
+      "search_rounds": 2,
+      "seed": 21,
+      "stride": 4,
+      "tops_target_tops": 512,
+      "ul3_kb": 2048,
+      "workload_ref": "workloads/cnn_inference.json"
+    },
+    {
+      "batch_size": 1,
+      "chiplet_partition": {
+        "x": 2,
+        "y": 2
+      },
+      "core_array": {
+        "x": 8,
+        "y": 8
+      },
+      "design_name": "full_prefill_fo_ucie_512",
+      "interface_class": "UCIe",
+      "macs_per_core": 4096,
+      "memory_bandwidth_gbps": 512,
+      "memory_class": "GDDR6X",
+      "microarch": "polar",
+      "noc_bandwidth": 32,
+      "nop_bandwidth": 32,
+      "objective": "edp",
+      "package_class": "FO",
+      "process_node": "7",
+      "search_rounds": 2,
+      "seed": 31,
+      "stride": 4,
+      "tops_target_tops": 512,
+      "ul3_kb": 4096,
+      "workload_ref": "workloads/long_context_prefill.json"
+    },
+    {
+      "batch_size": 1,
+      "chiplet_partition": {
+        "x": 2,
+        "y": 2
+      },
+      "core_array": {
+        "x": 8,
+        "y": 4
+      },
+      "design_name": "full_dense_decoder_os_xsr",
+      "interface_class": "XSR",
+      "macs_per_core": 2048,
+      "memory_bandwidth_gbps": 160,
+      "memory_class": "GDDR6X",
+      "microarch": "polar",
+      "noc_bandwidth": 32,
+      "nop_bandwidth": 16,
+      "objective": "edp",
+      "package_class": "OS",
+      "process_node": "12",
+      "search_rounds": 3,
+      "seed": 41,
+      "stride": 4,
+      "tops_target_tops": 128,
+      "ul3_kb": 2048,
+      "workload_ref": "workloads/dense_decoder_block.json"
+    },
+    {
+      "batch_size": 1,
+      "chiplet_partition": {
+        "x": 4,
+        "y": 2
+      },
+      "core_array": {
+        "x": 8,
+        "y": 8
+      },
+      "design_name": "full_mixtral_moe_si_ucie",
+      "interface_class": "UCIe",
+      "macs_per_core": 4096,
+      "memory_bandwidth_gbps": 512,
+      "memory_class": "GDDR6X",
+      "microarch": "polar",
+      "noc_bandwidth": 32,
+      "nop_bandwidth": 32,
+      "objective": "edp",
+      "package_class": "SI",
+      "process_node": "7",
+      "search_rounds": 2,
+      "seed": 51,
+      "stride": 4,
+      "tops_target_tops": 512,
+      "ul3_kb": 4096,
+      "workload_ref": "workloads/mixtral_moe_trace.json"
+    },
+    {
+      "batch_size": 1,
+      "chiplet_partition": {
+        "x": 4,
+        "y": 2
+      },
+      "core_array": {
+        "x": 8,
+        "y": 8
+      },
+      "design_name": "full_megatron_collective_fo_ucie",
+      "interface_class": "UCIe",
+      "macs_per_core": 4096,
+      "memory_bandwidth_gbps": 512,
+      "memory_class": "GDDR6X",
+      "microarch": "polar",
+      "noc_bandwidth": 32,
+      "nop_bandwidth": 32,
+      "objective": "edp",
+      "package_class": "FO",
+      "process_node": "7",
+      "search_rounds": 2,
+      "seed": 61,
+      "stride": 4,
+      "tops_target_tops": 512,
+      "ul3_kb": 4096,
+      "workload_ref": "workloads/megatron_collective_trace.json"
+    }
+  ],
+  "time_cap_minutes": 30,
+  "tier": "paper-full"
+}

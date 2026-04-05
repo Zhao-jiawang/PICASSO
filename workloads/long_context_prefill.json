@@ -1,0 +1,11 @@
+{
+  "description": "Long-context prefill workload binding",
+  "execution_binding": "gpt2_prefill_block",
+  "picasso_workload": "long_context_prefill",
+  "motif": "long_context_prefill",
+  "notes": [
+    "Uses canonical PICASSO workload identity.",
+    "Execution binding to concrete kernels is resolved inside the Python-native runner."
+  ],
+  "status": "runnable_binding"
+}

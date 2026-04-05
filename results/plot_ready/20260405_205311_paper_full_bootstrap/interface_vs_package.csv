@@ -1,0 +1,8 @@
+workload_motif,interface_class,package_class,design_count,avg_cost,avg_energy,avg_cycle,status
+cnn_inference,USR,SI,1,28864560210.023560,44889957.547980,643.000000,bootstrap_observed
+cnn_inference,XSR,OS,1,141588898079.086090,10349951.799590,13680.000000,bootstrap_observed
+dense_decoder_block,XSR,OS,1,18540258361095592.000000,2482982701.736660,7466848.000000,bootstrap_observed
+kv_heavy_decode,UCIe,SI,1,1708273706022.665283,49362969.289100,34606.000000,bootstrap_observed
+long_context_prefill,UCIe,FO,2,27033344363724938412032.000000,921357861919.610718,15818519158.000000,bootstrap_observed
+megatron_collective_trace,UCIe,FO,1,12629565561167011840.000000,160881116164.037903,78501610.000000,bootstrap_observed
+mixtral_moe_trace,UCIe,SI,1,1860231906923198976.000000,16826561538.155251,110552084.000000,bootstrap_observed

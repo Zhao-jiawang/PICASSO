@@ -1,0 +1,2 @@
+baseline_mode,workload_motif,winner_design_id,joint_winner_design_id,global_winner_design_id,winner_changed_vs_joint,winner_changed_vs_global,winner_package_class,winner_interface_class,winner_memory_class,winner_edp,status
+Joint,cnn_inference,paper_smoke_001,paper_smoke_001,paper_smoke_001,false,false,OS,XSR,GDDR6X,114423601895.019699,bootstrap_observed

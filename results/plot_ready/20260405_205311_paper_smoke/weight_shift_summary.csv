@@ -1,0 +1,5 @@
+weight_profile,metric,winner_design_id,winner_changed_vs_default,winner_metric_value,status
+default_edp,edp,paper_smoke_001,false,114423601895.019699,bootstrap_observed
+cost_focus,cost,paper_smoke_001,false,114424860554.640549,bootstrap_observed
+energy_focus,energy,paper_smoke_001,false,15765169.729270,bootstrap_observed
+latency_focus,cycle,paper_smoke_001,false,7258.000000,bootstrap_observed

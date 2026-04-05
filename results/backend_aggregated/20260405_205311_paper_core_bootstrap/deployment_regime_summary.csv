@@ -1,0 +1,5 @@
+deployment_regime,recommended_chiplet_regime,optimization_lever,trigger_threshold_range
+serving_latency_tier,few_chiplet,interface,serialization_ratio>=0.702
+serving_throughput_tier,few_chiplet,mapping,locality_deficit>=0.407
+training_cost_pod,few_chiplet,mapping,locality_deficit>=0.407
+training_collective_heavy_pod,insufficient_data,insufficient_data,n/a

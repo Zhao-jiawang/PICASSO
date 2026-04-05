@@ -1,0 +1,2 @@
+design_id,baseline_mode,workload_motif,chiplet_count,regime,package_class,interface_class,process_node,tops_target_tops,edp,cost,energy,cycle,status
+paper_smoke_001,Joint,cnn_inference,2,few,OS,XSR,12,72,114423601895.019699,114424860554.640549,15765169.729270,7258,bootstrap_observed

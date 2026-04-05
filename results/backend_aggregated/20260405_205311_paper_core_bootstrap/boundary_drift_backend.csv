@@ -1,0 +1,5 @@
+metric,value,status
+mono_few,0.000000,projected_decision_preservation
+few_many,0.000000,projected_decision_preservation
+si_sp_crossing,0.200000,projected_decision_preservation
+m1_m2_sign_consistency,1.000000,projected_decision_preservation

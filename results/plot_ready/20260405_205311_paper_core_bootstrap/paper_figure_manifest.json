@@ -1,0 +1,120 @@
+{
+  "aggregated_run": "results/aggregated/20260405_205311_paper_core_bootstrap",
+  "backend_dir": "results/backend_aggregated/20260405_205311_paper_core_bootstrap",
+  "figures": [
+    {
+      "caption": "Validation chain",
+      "figure": "Fig. 3",
+      "generated_paths": [
+        "results/figures/fig3_validation.pdf",
+        "results/figures/fig3_validation.png"
+      ],
+      "generation_command": "python3 pyscripts/analysis/gen_validation.py",
+      "latex_include_path": "paper/figures/fig3_validation.pdf",
+      "source_data": [
+        "validation/*.csv"
+      ],
+      "status": "pending_validation_chain"
+    },
+    {
+      "caption": "Stronger baselines",
+      "figure": "Fig. 4",
+      "generated_paths": [
+        "results/figures/fig4_baselines.pdf",
+        "results/figures/fig4_baselines.png"
+      ],
+      "generation_command": "./scripts/run_figure4.sh",
+      "latex_include_path": "paper/figures/fig4_baselines.pdf",
+      "source_data": [
+        "results/plot_ready/20260405_205311_paper_core_bootstrap/winner_change_matrix.csv",
+        "results/plot_ready/20260405_205311_paper_core_bootstrap/reevaluated_loss.csv"
+      ],
+      "status": "plot_ready_only"
+    },
+    {
+      "caption": "Interface vs package and memory ablation",
+      "figure": "Fig. 5",
+      "generated_paths": [
+        "results/figures/fig5_interface_memory.pdf",
+        "results/figures/fig5_interface_memory.png"
+      ],
+      "generation_command": "./scripts/run_figure5.sh",
+      "latex_include_path": "paper/figures/fig5_interface_memory.pdf",
+      "source_data": [
+        "results/plot_ready/20260405_205311_paper_core_bootstrap/interface_vs_package.csv",
+        "results/plot_ready/20260405_205311_paper_core_bootstrap/memory_off_ablation.csv"
+      ],
+      "status": "plot_ready_only"
+    },
+    {
+      "caption": "Phase map",
+      "figure": "Fig. 6",
+      "generated_paths": [
+        "results/figures/fig6_phase_map.pdf",
+        "results/figures/fig6_phase_map.png"
+      ],
+      "generation_command": "./scripts/run_figure6.sh",
+      "latex_include_path": "paper/figures/fig6_phase_map.pdf",
+      "source_data": [
+        "results/plot_ready/20260405_205311_paper_core_bootstrap/phase_boundary.csv",
+        "results/plot_ready/20260405_205311_paper_core_bootstrap/split_margin.csv"
+      ],
+      "status": "plot_ready_only"
+    },
+    {
+      "caption": "Pareto and energy breakdown",
+      "figure": "Fig. 7",
+      "generated_paths": [
+        "results/figures/fig7_pareto_energy.pdf",
+        "results/figures/fig7_pareto_energy.png"
+      ],
+      "generation_command": "./scripts/run_figure7.sh",
+      "latex_include_path": "paper/figures/fig7_pareto_energy.pdf",
+      "source_data": [
+        "results/plot_ready/20260405_205311_paper_core_bootstrap/pareto_points.csv",
+        "results/plot_ready/20260405_205311_paper_core_bootstrap/energy_breakdown.csv"
+      ],
+      "status": "plot_ready_only"
+    },
+    {
+      "caption": "Sensitivity and closure",
+      "figure": "Fig. 8",
+      "generated_paths": [
+        "results/figures/fig8_closure.pdf",
+        "results/figures/fig8_closure.png"
+      ],
+      "generation_command": "./scripts/run_figure8.sh",
+      "latex_include_path": "paper/figures/fig8_closure.pdf",
+      "source_data": [
+        "results/plot_ready/20260405_205311_paper_core_bootstrap/boundary_drift.csv",
+        "results/plot_ready/20260405_205311_paper_core_bootstrap/sensitivity_tags.csv"
+      ],
+      "status": "backend_plot_ready"
+    }
+  ],
+  "notes": [
+    "This manifest tracks plot-ready data and intended figure asset destinations.",
+    "Bootstrap PDF and PNG rendering is available through scripts/run_figure4.sh through scripts/run_figure8.sh and python3 pyscripts/analysis/gen_validation.py."
+  ],
+  "plot_ready_dir": "results/plot_ready/20260405_205311_paper_core_bootstrap",
+  "run_name": "20260405_205311_paper_core_bootstrap",
+  "schema_version": "bootstrap_v0",
+  "tables": [
+    {
+      "generation_command": "python3 pyscripts/analysis/aggregate_illegal_breakdown.py",
+      "source_data": [
+        "results/plot_ready/20260405_205311_paper_core_bootstrap/illegal_breakdown.csv"
+      ],
+      "status": "plot_ready_only",
+      "table": "illegal_breakdown"
+    },
+    {
+      "generation_command": "python3 pyscripts/analysis/aggregate_weight_sweep.py",
+      "source_data": [
+        "results/plot_ready/20260405_205311_paper_core_bootstrap/weight_shift_summary.csv"
+      ],
+      "status": "plot_ready_only",
+      "table": "weight_shift_summary"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+package_class,process_bucket,node_target_bucket,monolithic_equivalent_area_bucket,avg_package_cost,ordering_status
+FO,all,all,all,5.700171,stable_in_sweep
+OS,all,all,all,0.848748,stable_in_sweep
+SI,all,all,all,12.134084,stable_in_sweep

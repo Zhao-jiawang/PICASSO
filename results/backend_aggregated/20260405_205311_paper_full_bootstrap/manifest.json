@@ -1,0 +1,104 @@
+{
+  "baseline_modes": [
+    "Architecture-first",
+    "Cost-interface-first",
+    "Joint",
+    "Memory-off",
+    "Outer-loop repair",
+    "Package-oblivious",
+    "Partition-first",
+    "Stage-wise"
+  ],
+  "generated_files": [
+    "winner_agreement.csv",
+    "legality_confusion.csv",
+    "boundary_drift_backend.csv",
+    "claim_closure.csv",
+    "closure_summary.csv",
+    "closure_summary.json",
+    "router_sensitivity.csv",
+    "package_cost_ordering_check.csv",
+    "deployment_regime_summary.csv"
+  ],
+  "notes": [
+    "Closure metrics are projected from canonical design records and backend translation bundles.",
+    "The reported values validate decision preservation rather than sign-off correctness."
+  ],
+  "sampled_points_file": "/home/zhaojw/Chip/PICASSO/results/backend_aggregated/20260405_205311_paper_full_bootstrap/sampled_backend_points.json",
+  "source_run": "/home/zhaojw/Chip/PICASSO/results/aggregated/20260405_205311_paper_full_bootstrap",
+  "status": "projected_decision_preservation",
+  "winner_summary_by_baseline": {
+    "Architecture-first": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_028",
+      "top3": [
+        "paper_full_bootstrap_028",
+        "paper_full_bootstrap_004",
+        "paper_full_bootstrap_020"
+      ]
+    },
+    "Cost-interface-first": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_030",
+      "top3": [
+        "paper_full_bootstrap_030",
+        "paper_full_bootstrap_006",
+        "paper_full_bootstrap_022"
+      ]
+    },
+    "Joint": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_025",
+      "top3": [
+        "paper_full_bootstrap_025",
+        "paper_full_bootstrap_001",
+        "paper_full_bootstrap_017"
+      ]
+    },
+    "Memory-off": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_032",
+      "top3": [
+        "paper_full_bootstrap_032",
+        "paper_full_bootstrap_008",
+        "paper_full_bootstrap_024"
+      ]
+    },
+    "Outer-loop repair": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_031",
+      "top3": [
+        "paper_full_bootstrap_031",
+        "paper_full_bootstrap_007",
+        "paper_full_bootstrap_023"
+      ]
+    },
+    "Package-oblivious": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_027",
+      "top3": [
+        "paper_full_bootstrap_027",
+        "paper_full_bootstrap_003",
+        "paper_full_bootstrap_019"
+      ]
+    },
+    "Partition-first": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_029",
+      "top3": [
+        "paper_full_bootstrap_029",
+        "paper_full_bootstrap_005",
+        "paper_full_bootstrap_021"
+      ]
+    },
+    "Stage-wise": {
+      "count": 8,
+      "top1": "paper_full_bootstrap_026",
+      "top3": [
+        "paper_full_bootstrap_026",
+        "paper_full_bootstrap_002",
+        "paper_full_bootstrap_018"
+      ]
+    }
+  }
+}

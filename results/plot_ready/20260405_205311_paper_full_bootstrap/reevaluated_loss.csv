@@ -1,0 +1,65 @@
+design_id,reference_design_id,reference_baseline_mode,baseline_mode,workload_motif,cost_loss_pct,energy_loss_pct,latency_loss_pct,edp_loss_pct,status
+paper_full_bootstrap_001,paper_full_bootstrap_025,Joint,Joint,cnn_inference,390.528513,-76.943726,2027.527216,390.528513,bootstrap_observed
+paper_full_bootstrap_002,paper_full_bootstrap_025,Joint,Stage-wise,cnn_inference,415.921433,-76.608852,2101.244168,414.896285,bootstrap_observed
+paper_full_bootstrap_003,paper_full_bootstrap_025,Joint,Package-oblivious,cnn_inference,485.073470,-74.954628,2226.749611,482.743106,bootstrap_observed
+paper_full_bootstrap_004,paper_full_bootstrap_025,Joint,Architecture-first,cnn_inference,447.120147,-75.521582,2121.772939,443.854878,bootstrap_observed
+paper_full_bootstrap_005,paper_full_bootstrap_025,Joint,Partition-first,cnn_inference,459.243622,-76.185691,2229.704510,454.803027,bootstrap_observed
+paper_full_bootstrap_006,paper_full_bootstrap_025,Joint,Cost-interface-first,cnn_inference,463.981623,-76.032804,2229.860031,458.402130,bootstrap_observed
+paper_full_bootstrap_007,paper_full_bootstrap_025,Joint,Outer-loop repair,cnn_inference,484.962908,-74.584725,2174.339036,478.029521,bootstrap_observed
+paper_full_bootstrap_008,paper_full_bootstrap_025,Joint,Memory-off,cnn_inference,527.071741,-74.912091,2365.007776,518.418918,bootstrap_observed
+paper_full_bootstrap_009,paper_full_bootstrap_009,Joint,Joint,long_context_prefill,0.000000,0.000000,0.000000,0.000000,bootstrap_observed
+paper_full_bootstrap_010,paper_full_bootstrap_009,Joint,Stage-wise,long_context_prefill,-5.137929,-9.502386,4.614446,-5.326422,bootstrap_observed
+paper_full_bootstrap_011,paper_full_bootstrap_009,Joint,Package-oblivious,long_context_prefill,5.742591,-4.741207,10.563458,5.321416,bootstrap_observed
+paper_full_bootstrap_012,paper_full_bootstrap_009,Joint,Architecture-first,long_context_prefill,-3.653051,-10.158819,6.601382,-4.228060,bootstrap_observed
+paper_full_bootstrap_013,paper_full_bootstrap_009,Joint,Partition-first,long_context_prefill,4.933975,-3.373658,7.735386,4.100762,bootstrap_observed
+paper_full_bootstrap_014,paper_full_bootstrap_009,Joint,Cost-interface-first,long_context_prefill,2.428982,-7.919410,10.137921,1.415648,bootstrap_observed
+paper_full_bootstrap_015,paper_full_bootstrap_009,Joint,Outer-loop repair,long_context_prefill,0.077324,-6.375444,5.625214,-1.108862,bootstrap_observed
+paper_full_bootstrap_016,paper_full_bootstrap_009,Joint,Memory-off,long_context_prefill,11.184516,-3.192771,13.266651,9.650306,bootstrap_observed
+paper_full_bootstrap_017,paper_full_bootstrap_017,Joint,Joint,kv_heavy_decode,0.000000,0.000000,0.000000,0.000000,bootstrap_observed
+paper_full_bootstrap_018,paper_full_bootstrap_017,Joint,Stage-wise,kv_heavy_decode,-1.494887,-4.569581,3.016818,-1.690619,bootstrap_observed
+paper_full_bootstrap_019,paper_full_bootstrap_017,Joint,Package-oblivious,kv_heavy_decode,12.565081,2.795453,9.067792,12.116731,bootstrap_observed
+paper_full_bootstrap_020,paper_full_bootstrap_017,Joint,Architecture-first,kv_heavy_decode,13.465810,4.617210,7.810784,12.788635,bootstrap_observed
+paper_full_bootstrap_021,paper_full_bootstrap_017,Joint,Partition-first,kv_heavy_decode,8.598000,2.103284,5.516384,7.735693,bootstrap_observed
+paper_full_bootstrap_022,paper_full_bootstrap_017,Joint,Cost-interface-first,kv_heavy_decode,9.173013,2.858772,5.088713,8.092960,bootstrap_observed
+paper_full_bootstrap_023,paper_full_bootstrap_017,Joint,Outer-loop repair,kv_heavy_decode,4.061758,-1.136919,4.010865,2.828346,bootstrap_observed
+paper_full_bootstrap_024,paper_full_bootstrap_017,Joint,Memory-off,kv_heavy_decode,22.681066,9.740211,10.249668,20.988218,bootstrap_observed
+paper_full_bootstrap_025,paper_full_bootstrap_025,Joint,Joint,cnn_inference,0.000000,0.000000,0.000000,0.000000,bootstrap_observed
+paper_full_bootstrap_026,paper_full_bootstrap_025,Joint,Stage-wise,cnn_inference,5.663005,2.736835,2.643857,5.453050,bootstrap_observed
+paper_full_bootstrap_027,paper_full_bootstrap_025,Joint,Package-oblivious,cnn_inference,22.959517,9.676963,11.664075,22.469766,bootstrap_observed
+paper_full_bootstrap_028,paper_full_bootstrap_025,Joint,Architecture-first,cnn_inference,12.908082,5.506744,6.376361,12.234235,bootstrap_observed
+paper_full_bootstrap_029,paper_full_bootstrap_025,Joint,Partition-first,cnn_inference,14.491382,5.387310,7.776050,13.582280,bootstrap_observed
+paper_full_bootstrap_030,paper_full_bootstrap_025,Joint,Cost-interface-first,cnn_inference,27.105236,14.293957,10.108865,25.847779,bootstrap_observed
+paper_full_bootstrap_031,paper_full_bootstrap_025,Joint,Outer-loop repair,cnn_inference,10.230526,4.534523,4.199067,8.923997,bootstrap_observed
+paper_full_bootstrap_032,paper_full_bootstrap_025,Joint,Memory-off,cnn_inference,26.848554,10.491954,13.219285,25.098199,bootstrap_observed
+paper_full_bootstrap_033,paper_full_bootstrap_009,Joint,Joint,long_context_prefill,68632.162666,3213.412950,1974.361503,68632.162666,bootstrap_observed
+paper_full_bootstrap_034,paper_full_bootstrap_009,Joint,Stage-wise,long_context_prefill,69513.506332,3097.805986,2072.589053,69375.182764,bootstrap_observed
+paper_full_bootstrap_035,paper_full_bootstrap_009,Joint,Package-oblivious,long_context_prefill,74985.102574,3114.855400,2226.264395,74686.036504,bootstrap_observed
+paper_full_bootstrap_036,paper_full_bootstrap_009,Joint,Architecture-first,long_context_prefill,69165.028974,3046.135605,2088.451385,68751.648225,bootstrap_observed
+paper_full_bootstrap_037,paper_full_bootstrap_009,Joint,Partition-first,long_context_prefill,76565.770647,3299.603160,2137.232212,75957.016979,bootstrap_observed
+paper_full_bootstrap_038,paper_full_bootstrap_009,Joint,Cost-interface-first,long_context_prefill,72507.477648,3049.573682,2182.504753,71789.168973,bootstrap_observed
+paper_full_bootstrap_039,paper_full_bootstrap_009,Joint,Outer-loop repair,long_context_prefill,71873.155045,3150.055280,2088.272905,71020.079081,bootstrap_observed
+paper_full_bootstrap_040,paper_full_bootstrap_009,Joint,Memory-off,long_context_prefill,91109.295124,3658.998870,2292.943483,89850.718514,bootstrap_observed
+paper_full_bootstrap_041,paper_full_bootstrap_041,Joint,Joint,dense_decoder_block,0.000000,0.000000,0.000000,0.000000,bootstrap_observed
+paper_full_bootstrap_042,paper_full_bootstrap_041,Joint,Stage-wise,dense_decoder_block,2.962507,-1.542167,4.367439,2.757918,bootstrap_observed
+paper_full_bootstrap_043,paper_full_bootstrap_041,Joint,Package-oblivious,dense_decoder_block,13.620967,-1.070088,14.392512,13.168411,bootstrap_observed
+paper_full_bootstrap_044,paper_full_bootstrap_041,Joint,Architecture-first,dense_decoder_block,3.488937,-2.491635,5.499978,2.871304,bootstrap_observed
+paper_full_bootstrap_045,paper_full_bootstrap_041,Joint,Partition-first,dense_decoder_block,14.995858,2.533484,11.263896,14.082749,bootstrap_observed
+paper_full_bootstrap_046,paper_full_bootstrap_041,Joint,Cost-interface-first,dense_decoder_block,12.680971,-1.108253,12.816506,11.566214,bootstrap_observed
+paper_full_bootstrap_047,paper_full_bootstrap_041,Joint,Outer-loop repair,dense_decoder_block,5.002727,-0.715273,4.505663,3.758162,bootstrap_observed
+paper_full_bootstrap_048,paper_full_bootstrap_041,Joint,Memory-off,dense_decoder_block,14.677059,-1.185258,14.451198,13.094656,bootstrap_observed
+paper_full_bootstrap_049,paper_full_bootstrap_049,Joint,Joint,mixtral_moe_trace,0.000000,0.000000,0.000000,0.000000,bootstrap_observed
+paper_full_bootstrap_050,paper_full_bootstrap_049,Joint,Stage-wise,mixtral_moe_trace,8.991322,4.359446,4.230866,8.774754,bootstrap_observed
+paper_full_bootstrap_051,paper_full_bootstrap_049,Joint,Package-oblivious,mixtral_moe_trace,12.455435,0.568511,11.374346,12.007522,bootstrap_observed
+paper_full_bootstrap_052,paper_full_bootstrap_049,Joint,Architecture-first,mixtral_moe_trace,7.217649,-0.342226,6.943752,6.577763,bootstrap_observed
+paper_full_bootstrap_053,paper_full_bootstrap_049,Joint,Partition-first,mixtral_moe_trace,13.460578,3.884656,8.350612,12.559661,bootstrap_observed
+paper_full_bootstrap_054,paper_full_bootstrap_049,Joint,Cost-interface-first,mixtral_moe_trace,9.754321,-0.304101,8.999987,8.668517,bootstrap_observed
+paper_full_bootstrap_055,paper_full_bootstrap_049,Joint,Outer-loop repair,mixtral_moe_trace,9.448164,2.767997,5.237926,8.150908,bootstrap_observed
+paper_full_bootstrap_056,paper_full_bootstrap_049,Joint,Memory-off,mixtral_moe_trace,28.935252,11.152305,14.398080,27.156104,bootstrap_observed
+paper_full_bootstrap_057,paper_full_bootstrap_057,Joint,Joint,megatron_collective_trace,0.000000,0.000000,0.000000,0.000000,bootstrap_observed
+paper_full_bootstrap_058,paper_full_bootstrap_057,Joint,Stage-wise,megatron_collective_trace,3.132420,-0.553125,3.499978,2.927494,bootstrap_observed
+paper_full_bootstrap_059,paper_full_bootstrap_057,Joint,Package-oblivious,megatron_collective_trace,7.302729,-3.280228,10.499991,6.875339,bootstrap_observed
+paper_full_bootstrap_060,paper_full_bootstrap_057,Joint,Architecture-first,megatron_collective_trace,0.175110,-5.613944,5.499964,-0.422745,bootstrap_observed
+paper_full_bootstrap_061,paper_full_bootstrap_057,Joint,Partition-first,megatron_collective_trace,5.957334,-2.037500,7.302280,5.115995,bootstrap_observed
+paper_full_bootstrap_062,paper_full_bootstrap_057,Joint,Cost-interface-first,megatron_collective_trace,12.512998,2.201772,8.999972,11.399903,bootstrap_observed
+paper_full_bootstrap_063,paper_full_bootstrap_057,Joint,Outer-loop repair,megatron_collective_trace,-0.411045,-6.001600,4.691737,-1.591442,bootstrap_observed
+paper_full_bootstrap_064,paper_full_bootstrap_057,Joint,Memory-off,megatron_collective_trace,20.748067,1.160528,17.715767,19.081891,bootstrap_observed
